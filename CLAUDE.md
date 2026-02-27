@@ -11,13 +11,24 @@ Hackathon entry for ZerveHack (Devpost). Dual-track analysis: (A) do golf scores
 - Track B: Python + spatial spread / population decline modeling
 - SQL for data wrangling in Zerve
 - All dev work done locally with Claude; Zerve used only for execution/deployment (credit conservation)
+- Extended PGA data back to 2009 (historical dataset) to unlock 6 treatment courses for DiD
+- FIA data pulled via FIADB REST API; current snapshot is single eval year per state — need multi-year pulls for Track B extinction modeling (see issue #8)
+
+## Data Status
+- `data/raw/eab_detections_by_county.csv` — 867 US counties, FIPS + detection year (2002-2022)
+- `data/raw/ASA All PGA Raw Data - Tourn Level.csv` — 36,864 rows, 2015-2022, strokes gained
+- `data/raw/pga_historical/` — 61,283 leaderboard rows + 505 tournaments, 2009-2022
+- `data/raw/fia_ash_by_county.csv` — 3,159 records, ash tree estimates by county (single snapshot)
+- `data/processed/pga_courses_geocoded.csv` — 72 US courses with FIPS county codes
 
 ## Repo Structure
 ```
 ash-borer-plan.md   # Full project roadmap and deliverables checklist
 ideas.md            # Original brainstorm notes
-data/               # Raw and processed datasets (gitignored if large)
-src/                # Analysis code (Python, R, SQL)
+CLAUDE.md           # This file — session context
+data/raw/           # Source datasets
+data/processed/     # Derived datasets
+src/                # Fetch scripts and analysis code
 ```
 
 ## Conventions
