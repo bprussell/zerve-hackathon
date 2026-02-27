@@ -3,6 +3,9 @@ data/raw/*.xlsx
 data/raw/*.zip
 # data/processed/ — tracked (small derived CSVs)
 
+# Claude Code local settings
+.claude/settings.local.json
+
 # Python
 __pycache__/
 *.pyc
