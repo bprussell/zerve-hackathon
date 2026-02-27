@@ -1,0 +1,73 @@
+course_raw,course_name,city,state_abbr,state,lat,lon,fips,county_name,state_fips
+"Muirfield Village Golf Club - Dublin, OH",Muirfield Village Golf Club,Dublin,OH,Ohio,40.0996009,-83.1135563,39049,Franklin County,39
+"Colonial - Ft. Worth, TX",Colonial,Ft. Worth,TX,Texas,32.753177,-97.3327459,48439,Tarrant County,48
+"Southern Hills Country Club - Tulsa, OK",Southern Hills Country Club,Tulsa,OK,Oklahoma,36.1563122,-95.9927516,40143,Tulsa County,40
+"TPC Craig Ranch - McKinney, TX",TPC Craig Ranch,McKinney,TX,Texas,33.1976496,-96.6154471,48085,Collin County,48
+"TPC Potomac at Avenel Farm - Potomac, MD",TPC Potomac at Avenel Farm,Potomac,MD,Maryland,39.017936,-77.2094542,24031,Montgomery County,24
+"Harbour Town Golf Links - Hilton Head Island, SC",Harbour Town Golf Links,Hilton Head Island,SC,South Carolina,32.1618488,-80.7512616,45013,Beaufort County,45
+"Augusta National Golf Club - Augusta, GA",Augusta National Golf Club,Augusta,GA,Georgia,33.4709714,-81.9748429,13245,Richmond County,13
+"TPC San Antonio - San Antonio, TX",TPC San Antonio,San Antonio,TX,Texas,29.4246002,-98.4951405,48029,Bexar County,48
+"Innisbrook - Palm Harbor, FL",Innisbrook,Palm Harbor,FL,Florida,28.0856815,-82.756907,12103,Pinellas County,12
+"TPC Sawgrass - Ponte Vedra Beach, FL",TPC Sawgrass,Ponte Vedra Beach,FL,Florida,30.2396865,-81.3856384,12109,St. Johns County,12
+"Bay Hill - Orlando, FL",Bay Hill,Orlando,FL,Florida,28.5421218,-81.379045,12095,Orange County,12
+"PGA National - Palm Beach Gardens, FL",PGA National,Palm Beach Gardens,FL,Florida,26.8233946,-80.1386547,12099,Palm Beach County,12
+"Riviera Country Club - Pacific Palisades, CA",Riviera Country Club,Pacific Palisades,CA,California,34.0480643,-118.5264706,06037,Los Angeles County,06
+"TPC Scottsdale - Scottsdale, AZ",TPC Scottsdale,Scottsdale,AZ,Arizona,33.4942189,-111.926018,04013,Maricopa County,04
+"Pebble Beach Resort - Pebble Beach, CA",Pebble Beach Resort,Pebble Beach,CA,California,36.5672414,-121.9442134,06053,Monterey County,06
+"Torrey Pines North - La Jolla, CA",Torrey Pines North,La Jolla,CA,California,32.8458529,-117.2575702,06073,San Diego County,06
+"La Quinta CC - La Quinta, CA",La Quinta CC,La Quinta,CA,California,33.677474,-116.2958789,06065,Riverside County,06
+"Waialae CC - Honolulu, HI",Waialae CC,Honolulu,HI,Hawaii,21.304547,-157.855676,15003,Honolulu County,15
+"Kapalua Resort - Kapalua, HI",Kapalua Resort,Kapalua,HI,Hawaii,21.0008534,-156.663155,15009,Maui County,15
+"Sea Island Resort - Sea Island, GA",Sea Island Resort,Sea Island,GA,Georgia,31.2002314,-81.3331508,13127,Glynn County,13
+"Memorial Park GC - Houston, TX",Memorial Park GC,Houston,TX,Texas,29.7589382,-95.3676974,48201,Harris County,48
+"The Summit Club - Las Vegas, NV",The Summit Club,Las Vegas,NV,Nevada,36.1674263,-115.1484131,32003,Clark County,32
+"TPC Summerlin - Las Vegas, NV",TPC Summerlin,Las Vegas,NV,Nevada,36.1674263,-115.1484131,32003,Clark County,32
+"Country Club of Jackson - Jackson, MS",Country Club of Jackson,Jackson,MS,Mississippi,32.2998686,-90.1830408,28049,Hinds County,28
+"Silverado Resort - Napa, CA",Silverado Resort,Napa,CA,California,38.4898675,-122.3218414,06055,Napa County,06
+"East Lake Golf Club - Atlanta, GA",East Lake Golf Club,Atlanta,GA,Georgia,33.7544657,-84.3898151,13121,Fulton County,13
+"Caves Valley Golf Club - Baltimore, MD",Caves Valley Golf Club,Baltimore,MD,Maryland,39.4188,-76.7845,24005,Baltimore County,24
+"Liberty National - Jersey City, NJ",Liberty National,Jersey City,NJ,New Jersey,40.7215682,-74.047455,34017,Hudson County,34
+"Sedgefield Country Club - Greensboro, NC",Sedgefield Country Club,Greensboro,NC,North Carolina,36.0726355,-79.7919754,37081,Guilford County,37
+"TPC Southwind - Memphis, TN",TPC Southwind,Memphis,TN,Tennessee,35.1460249,-90.0517638,47157,Shelby County,47
+"TPC Twin Cities - Blaine, MN",TPC Twin Cities,Blaine,MN,Minnesota,45.1607987,-93.2349489,27003,Anoka County,27
+"Keene Trace Golf Club - Nicholasville, KY",Keene Trace Golf Club,Nicholasville,KY,Kentucky,37.8806341,-84.5729961,21113,Jessamine County,21
+"TPC Deere Run - Silvis, IL",TPC Deere Run,Silvis,IL,Illinois,41.5122561,-90.4151301,17161,Rock Island County,17
+"Detroit Golf Club - Detroit, MI",Detroit Golf Club,Detroit,MI,Michigan,42.3315509,-83.0466403,26163,Wayne County,26
+"TPC River Highlands - Cromwell, CT",TPC River Highlands,Cromwell,CT,Connecticut,41.5949942,-72.6455665,09007,Middlesex County,09
+"Torrey Pines South - La Jolla, CA",Torrey Pines South,La Jolla,CA,California,32.8458529,-117.2575702,06073,San Diego County,06
+"Congaree Golf Club - Ridgeland, SC",Congaree Golf Club,Ridgeland,SC,South Carolina,32.4807435,-80.980386,45053,Jasper County,45
+"Kiawah Island Golf Resort - Kiawah Island, SC",Kiawah Island Golf Resort,Kiawah Island,SC,South Carolina,32.6082373,-80.0848166,45019,Charleston County,45
+"Quail Hollow Club - Charlotte, NC",Quail Hollow Club,Charlotte,NC,North Carolina,35.2272086,-80.8430827,37119,Mecklenburg County,37
+"The Concession Golf Club - Bradenton, FL",The Concession Golf Club,Bradenton,FL,Florida,27.4989278,-82.5748194,12081,Manatee County,12
+"Sherwood CC - Thousand Oaks, CA",Sherwood CC,Thousand Oaks,CA,California,34.1705609,-118.8375937,06111,Ventura County,06
+"Shadow Creek GC - Las Vegas, NV",Shadow Creek GC,Las Vegas,NV,Nevada,36.1674263,-115.1484131,32003,Clark County,32
+"Winged Foot GC - Mamaroneck, NY",Winged Foot GC,Mamaroneck,NY,New York,40.9487314,-73.7331416,36119,Westchester County,36
+"Olympia Fields Country Club - Olympia Fields, IL",Olympia Fields Country Club,Olympia Fields,IL,Illinois,41.5164045,-87.7028957,17031,Cook County,17
+"TPC Boston - Norton, MA",TPC Boston,Norton,MA,Massachusetts,41.9670616,-71.1875071,25005,Bristol County,25
+"TPC Harding Park - San Francisco, CA",TPC Harding Park,San Francisco,CA,California,37.7879363,-122.4075201,06075,San Francisco County,06
+"Golf Club of Houston - Houston, TX",Golf Club of Houston,Houston,TX,Texas,29.7589382,-95.3676974,48201,Harris County,48
+"Old White Course - White Sulphur Springs, WV",Old White Course,White Sulphur Springs,WV,West Virginia,37.7965149,-80.2975734,54025,Greenbrier County,54
+"Medinah - Medinah, IL",Medinah,Medinah,IL,Illinois,41.9784465,-88.0518748,17043,DuPage County,17
+"Bethpage - Farmingdale, NY",Bethpage,Farmingdale,NY,New York,40.7328811,-73.4458564,36059,Nassau County,36
+"Trinity Forest Golf Club - Dallas, TX",Trinity Forest Golf Club,Dallas,TX,Texas,32.7762719,-96.7968559,48113,Dallas County,48
+"Aronimink Golf Club - Newton Square, PA",Aronimink Golf Club,Newton Square,PA,Pennsylvania,39.9868,-75.4008,42045,Delaware County,42
+"Ridgewood Country Club - Paramus, NJ",Ridgewood Country Club,Paramus,NJ,New Jersey,40.9452911,-74.0735899,34003,Bergen County,34
+"Bellerive Country Club - St. Louis, MO",Bellerive Country Club,St. Louis,MO,Missouri,38.6254063,-90.190009,29510,St. Louis city,29
+"Firestone Country Club - Akron, OH",Firestone Country Club,Akron,OH,Ohio,41.083064,-81.518485,39153,Summit County,39
+"Shinnecock Hills Golf Club - Southampton, NY",Shinnecock Hills Golf Club,Southampton,NY,New York,40.8842482,-72.3897131,36103,Suffolk County,36
+"Redstone Golf Club - Houston, TX",Redstone Golf Club,Houston,TX,Texas,29.7589382,-95.3676974,48201,Harris County,48
+"Conway Farms Golf Club - Lake Forest, IL",Conway Farms Golf Club,Lake Forest,IL,Illinois,42.2586461,-87.8407055,17097,Lake County,17
+"Glen Oaks Club - Old Westbury, NY",Glen Oaks Club,Old Westbury,NY,New York,40.7887113,-73.5995717,36059,Nassau County,36
+"Robert Trent Jones Golf Trail - Auburn, AL",Robert Trent Jones Golf Trail,Auburn,AL,Alabama,32.6098566,-85.4807825,01081,Lee County,01
+"Erin Hills Golf Club - Erin, WI",Erin Hills Golf Club,Erin,WI,Wisconsin,43.2546475,-88.3691701,55131,Washington County,55
+"TPC Four Seasons Resort Las Colinas - Irving, TX",TPC Four Seasons Resort Las Colinas,Irving,TX,Texas,32.8295183,-96.9442177,48113,Dallas County,48
+"Eagle Point Golf Club - Wilmington, NC",Eagle Point Golf Club,Wilmington,NC,North Carolina,34.2352853,-77.9487284,37129,New Hanover County,37
+"Crooked Stick - Carmel, IN",Crooked Stick,Carmel,IN,Indiana,39.9784186,-86.1283681,18057,Hamilton County,18
+"Baltusrol - Springfield, NJ",Baltusrol,Springfield,NJ,New Jersey,40.7109107,-74.3099398,34039,Union County,34
+"Congressional - Bethesda, MD",Congressional,Bethesda,MD,Maryland,38.9812726,-77.1233587,24031,Montgomery County,24
+"Oakmont - Oakmont, PA",Oakmont,Oakmont,PA,Pennsylvania,40.5217347,-79.8422719,42003,Allegheny County,42
+"Doral - Miami, FL",Doral,Miami,FL,Florida,25.7741566,-80.1935973,12086,Miami-Dade County,12
+"Plainfield CC - Edison, NJ",Plainfield CC,Edison,NJ,New Jersey,40.518157,-74.4113926,34023,Middlesex County,34
+"Whistling Straits - Kohler, WI",Whistling Straits,Kohler,WI,Wisconsin,43.7391616,-87.7817541,55117,Sheboygan County,55
+"Chambers Bay - University Place, WA",Chambers Bay,University Place,WA,Washington,47.2258172,-122.5371325,53053,Pierce County,53
+"Isleworth - Windemere, FL",Isleworth,Windemere,FL,Florida,28.4842,-81.5548,12095,Orange County,12

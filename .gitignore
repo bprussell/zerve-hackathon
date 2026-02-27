@@ -1,7 +1,7 @@
 # Large data files — keep raw CSVs in git (small), ignore bulky downloads
 data/raw/*.xlsx
 data/raw/*.zip
-data/processed/
+# data/processed/ — tracked (small derived CSVs)
 
 # Python
 __pycache__/
