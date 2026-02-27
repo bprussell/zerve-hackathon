@@ -1,0 +1,868 @@
+fips,state_fips,county_fips,state,county,year_detected
+26093,26,093,Michigan,Livingston,2002
+26099,26,099,Michigan,Macomb,2002
+26115,26,115,Michigan,Monroe,2002
+26125,26,125,Michigan,Oakland,2002
+26161,26,161,Michigan,Washtenaw,2002
+26163,26,163,Michigan,Wayne,2002
+24033,24,033,Maryland,Prince George's,2003
+26025,26,025,Michigan,Calhoun,2003
+26045,26,045,Michigan,Eaton,2003
+26049,26,049,Michigan,Genesee,2003
+26065,26,065,Michigan,Ingham,2003
+26075,26,075,Michigan,Jackson,2003
+26081,26,081,Michigan,Kent,2003
+26139,26,139,Michigan,Ottawa,2003
+26145,26,145,Michigan,Saginaw,2003
+26147,26,147,Michigan,St. Clair,2003
+26155,26,155,Michigan,Shiawassee,2003
+39039,39,039,Ohio,Defiance,2003
+39049,39,049,Ohio,Franklin,2003
+39095,39,095,Ohio,Lucas,2003
+39125,39,125,Ohio,Paulding,2003
+39173,39,173,Ohio,Wood,2003
+18087,18,087,Indiana,LaGrange,2004
+18151,18,151,Indiana,Steuben,2004
+26001,26,001,Michigan,Alcona,2004
+26009,26,009,Michigan,Antrim,2004
+26015,26,015,Michigan,Barry,2004
+26021,26,021,Michigan,Berrien,2004
+26023,26,023,Michigan,Branch,2004
+26031,26,031,Michigan,Cheboygan,2004
+26037,26,037,Michigan,Clinton,2004
+26039,26,039,Michigan,Crawford,2004
+26047,26,047,Michigan,Emmet,2004
+26057,26,057,Michigan,Gratiot,2004
+26059,26,059,Michigan,Hillsdale,2004
+26069,26,069,Michigan,Iosco,2004
+26087,26,087,Michigan,Lapeer,2004
+26091,26,091,Michigan,Lenawee,2004
+26101,26,101,Michigan,Manistee,2004
+26107,26,107,Michigan,Mecosta,2004
+26111,26,111,Michigan,Midland,2004
+26127,26,127,Michigan,Oceana,2004
+26129,26,129,Michigan,Ogemaw,2004
+26135,26,135,Michigan,Oscoda,2004
+26141,26,141,Michigan,Presque Isle,2004
+26143,26,143,Michigan,Roscommon,2004
+26149,26,149,Michigan,St. Joseph,2004
+26151,26,151,Michigan,Sanilac,2004
+39051,39,051,Ohio,Fulton,2004
+39069,39,069,Ohio,Henry,2004
+18001,18,001,Indiana,Adams,2005
+18135,18,135,Indiana,Randolph,2005
+26019,26,019,Michigan,Benzie,2005
+26029,26,029,Michigan,Charlevoix,2005
+26033,26,033,Michigan,Chippewa,2005
+26055,26,055,Michigan,Grand Traverse,2005
+26063,26,063,Michigan,Huron,2005
+26067,26,067,Michigan,Ionia,2005
+26073,26,073,Michigan,Isabella,2005
+26105,26,105,Michigan,Mason,2005
+26117,26,117,Michigan,Montcalm,2005
+26119,26,119,Michigan,Montmorency,2005
+26157,26,157,Michigan,Tuscola,2005
+26159,26,159,Michigan,Van Buren,2005
+39011,39,011,Ohio,Auglaize,2005
+39041,39,041,Ohio,Delaware,2005
+39043,39,043,Ohio,Erie,2005
+39063,39,063,Ohio,Hancock,2005
+39093,39,093,Ohio,Lorain,2005
+39123,39,123,Ohio,Ottawa,2005
+39143,39,143,Ohio,Sandusky,2005
+39171,39,171,Ohio,Williams,2005
+17031,17,031,Illinois,Cook,2006
+17089,17,089,Illinois,Kane,2006
+18003,18,003,Indiana,Allen,2006
+18033,18,033,Indiana,DeKalb,2006
+18057,18,057,Indiana,Hamilton,2006
+18069,18,069,Indiana,Huntington,2006
+18097,18,097,Indiana,Marion,2006
+18127,18,127,Indiana,Porter,2006
+18141,18,141,Indiana,St. Joseph,2006
+18181,18,181,Indiana,White,2006
+26011,26,011,Michigan,Arenac,2006
+26035,26,035,Michigan,Clare,2006
+26051,26,051,Michigan,Gladwin,2006
+26077,26,077,Michigan,Kalamazoo,2006
+26079,26,079,Michigan,Kalkaska,2006
+26089,26,089,Michigan,Leelanau,2006
+26113,26,113,Michigan,Missaukee,2006
+26133,26,133,Michigan,Osceola,2006
+26137,26,137,Michigan,Otsego,2006
+39035,39,035,Ohio,Cuyahoga,2006
+39065,39,065,Ohio,Hardin,2006
+39077,39,077,Ohio,Huron,2006
+39091,39,091,Ohio,Logan,2006
+39101,39,101,Ohio,Marion,2006
+39103,39,103,Ohio,Medina,2006
+39107,39,107,Ohio,Mercer,2006
+39109,39,109,Ohio,Miami,2006
+39147,39,147,Ohio,Seneca,2006
+39165,39,165,Ohio,Warren,2006
+39175,39,175,Ohio,Wyandot,2006
+17043,17,043,Illinois,DuPage,2007
+17099,17,099,Illinois,La Salle,2007
+18039,18,039,Indiana,Elkhart,2007
+18113,18,113,Indiana,Noble,2007
+18169,18,169,Indiana,Wabash,2007
+18179,18,179,Indiana,Wells,2007
+18183,18,183,Indiana,Whitley,2007
+26005,26,005,Michigan,Allegan,2007
+26007,26,007,Michigan,Alpena,2007
+26017,26,017,Michigan,Bay,2007
+26027,26,027,Michigan,Cass,2007
+26097,26,097,Michigan,Mackinac,2007
+26121,26,121,Michigan,Muskegon,2007
+39003,39,003,Ohio,Allen,2007
+39017,39,017,Ohio,Butler,2007
+39045,39,045,Ohio,Fairfield,2007
+39061,39,061,Ohio,Hamilton,2007
+39099,39,099,Ohio,Mahoning,2007
+39113,39,113,Ohio,Montgomery,2007
+39133,39,133,Ohio,Portage,2007
+39159,39,159,Ohio,Union,2007
+42003,42,003,Pennsylvania,Allegheny,2007
+42019,42,019,Pennsylvania,Butler,2007
+54019,54,019,West Virginia,Fayette,2007
+17011,17,011,Illinois,Bureau,2008
+17093,17,093,Illinois,Kendall,2008
+17097,17,097,Illinois,Lake,2008
+17111,17,111,Illinois,McHenry,2008
+17113,17,113,Illinois,McLean,2008
+17197,17,197,Illinois,Will,2008
+18013,18,013,Indiana,Brown,2008
+18043,18,043,Indiana,Floyd,2008
+18085,18,085,Indiana,Kosciusko,2008
+18105,18,105,Indiana,Monroe,2008
+24017,24,017,Maryland,Charles,2008
+26041,26,041,Michigan,Delta,2008
+26061,26,061,Michigan,Houghton,2008
+26153,26,153,Michigan,Schoolcraft,2008
+29223,29,223,Missouri,Wayne,2008
+39025,39,025,Ohio,Clermont,2008
+39089,39,089,Ohio,Licking,2008
+39137,39,137,Ohio,Putnam,2008
+39161,39,161,Ohio,Van Wert,2008
+39169,39,169,Ohio,Wayne,2008
+42007,42,007,Pennsylvania,Beaver,2008
+42085,42,085,Pennsylvania,Mercer,2008
+51059,51,059,Virginia,Fairfax,2008
+55089,55,089,Wisconsin,Ozaukee,2008
+55131,55,131,Wisconsin,Washington,2008
+17037,17,037,Illinois,DeKalb,2009
+18009,18,009,Indiana,Blackford,2009
+18035,18,035,Indiana,Delaware,2009
+18037,18,037,Indiana,Dubois,2009
+18053,18,053,Indiana,Grant,2009
+18061,18,061,Indiana,Harrison,2009
+18075,18,075,Indiana,Jay,2009
+18093,18,093,Indiana,Lawrence,2009
+18103,18,103,Indiana,Miami,2009
+18117,18,117,Indiana,Orange,2009
+18137,18,137,Indiana,Ripley,2009
+21037,21,037,Kentucky,Campbell,2009
+21067,21,067,Kentucky,Fayette,2009
+21073,21,073,Kentucky,Franklin,2009
+21089,21,089,Kentucky,Greenup,2009
+21103,21,103,Kentucky,Henry,2009
+21111,21,111,Kentucky,Jefferson,2009
+21113,21,113,Kentucky,Jessamine,2009
+21117,21,117,Kentucky,Kenton,2009
+21185,21,185,Kentucky,Oldham,2009
+21187,21,187,Kentucky,Owen,2009
+21211,21,211,Kentucky,Shelby,2009
+26003,26,003,Michigan,Alger,2009
+27123,27,123,Minnesota,Ramsey,2009
+36009,36,009,New York,Cattaraugus,2009
+39005,39,005,Ohio,Ashland,2009
+39023,39,023,Ohio,Clark,2009
+39057,39,057,Ohio,Greene,2009
+39117,39,117,Ohio,Morrow,2009
+39129,39,129,Ohio,Pickaway,2009
+39131,39,131,Ohio,Pike,2009
+39139,39,139,Ohio,Richland,2009
+39145,39,145,Ohio,Scioto,2009
+39153,39,153,Ohio,Summit,2009
+42005,42,005,Pennsylvania,Armstrong,2009
+42063,42,063,Pennsylvania,Indiana,2009
+42067,42,067,Pennsylvania,Juniata,2009
+42073,42,073,Pennsylvania,Lawrence,2009
+42087,42,087,Pennsylvania,Mifflin,2009
+42125,42,125,Pennsylvania,Washington,2009
+42129,42,129,Pennsylvania,Westmoreland,2009
+54065,54,065,West Virginia,Morgan,2009
+54087,54,087,West Virginia,Roane,2009
+55009,55,009,Wisconsin,Brown,2009
+55023,55,023,Wisconsin,Crawford,2009
+55059,55,059,Wisconsin,Kenosha,2009
+55079,55,079,Wisconsin,Milwaukee,2009
+55123,55,123,Wisconsin,Vernon,2009
+17007,17,007,Illinois,Boone,2010
+17019,17,019,Illinois,Champaign,2010
+17063,17,063,Illinois,Grundy,2010
+17075,17,075,Illinois,Iroquois,2010
+17141,17,141,Illinois,Ogle,2010
+17201,17,201,Illinois,Winnebago,2010
+18015,18,015,Indiana,Carroll,2010
+18017,18,017,Indiana,Cass,2010
+18063,18,063,Indiana,Hendricks,2010
+18091,18,091,Indiana,LaPorte,2010
+18095,18,095,Indiana,Madison,2010
+18099,18,099,Indiana,Marshall,2010
+18157,18,157,Indiana,Tippecanoe,2010
+18175,18,175,Indiana,Washington,2010
+19005,19,005,Iowa,Allamakee,2010
+21015,21,015,Kentucky,Boone,2010
+21019,21,019,Kentucky,Boyd,2010
+21239,21,239,Kentucky,Woodford,2010
+26123,26,123,Michigan,Newaygo,2010
+27053,27,053,Minnesota,Hennepin,2010
+27055,27,055,Minnesota,Houston,2010
+36037,36,037,New York,Genesee,2010
+36039,36,039,New York,Greene,2010
+36051,36,051,New York,Livingston,2010
+36055,36,055,New York,Monroe,2010
+36101,36,101,New York,Steuben,2010
+36111,36,111,New York,Ulster,2010
+39021,39,021,Ohio,Champaign,2010
+39027,39,027,Ohio,Clinton,2010
+39037,39,037,Ohio,Darke,2010
+39087,39,087,Ohio,Lawrence,2010
+39127,39,127,Ohio,Perry,2010
+42009,42,009,Pennsylvania,Bedford,2010
+42027,42,027,Pennsylvania,Centre,2010
+42031,42,031,Pennsylvania,Clarion,2010
+42041,42,041,Pennsylvania,Cumberland,2010
+42057,42,057,Pennsylvania,Fulton,2010
+42111,42,111,Pennsylvania,Somerset,2010
+42119,42,119,Pennsylvania,Union,2010
+47093,47,093,Tennessee,Knox,2010
+47105,47,105,Tennessee,Loudon,2010
+51069,51,069,Virginia,Frederick,2010
+51153,51,153,Virginia,Prince William,2010
+54013,54,013,West Virginia,Calhoun,2010
+54067,54,067,West Virginia,Nicholas,2010
+54081,54,081,West Virginia,Raleigh,2010
+11001,11,001,District of Columbia,District of Columbia,2011
+17039,17,039,Illinois,De Witt,2011
+17049,17,049,Illinois,Effingham,2011
+17091,17,091,Illinois,Kankakee,2011
+17105,17,105,Illinois,Livingston,2011
+17121,17,121,Illinois,Marion,2011
+17175,17,175,Illinois,Stark,2011
+18011,18,011,Indiana,Boone,2011
+18019,18,019,Indiana,Clark,2011
+18021,18,021,Indiana,Clay,2011
+18023,18,023,Indiana,Clinton,2011
+18029,18,029,Indiana,Dearborn,2011
+18049,18,049,Indiana,Fulton,2011
+18059,18,059,Indiana,Hancock,2011
+18067,18,067,Indiana,Howard,2011
+18073,18,073,Indiana,Jasper,2011
+18081,18,081,Indiana,Johnson,2011
+18089,18,089,Indiana,Lake,2011
+18139,18,139,Indiana,Rush,2011
+21005,21,005,Kentucky,Anderson,2011
+21021,21,021,Kentucky,Boyle,2011
+21023,21,023,Kentucky,Bracken,2011
+21079,21,079,Kentucky,Garrard,2011
+21093,21,093,Kentucky,Hardin,2011
+21209,21,209,Kentucky,Scott,2011
+24001,24,001,Maryland,Allegany,2011
+24003,24,003,Maryland,Anne Arundel,2011
+24027,24,027,Maryland,Howard,2011
+24043,24,043,Maryland,Washington,2011
+26083,26,083,Michigan,Keweenaw,2011
+26085,26,085,Michigan,Lake,2011
+26165,26,165,Michigan,Wexford,2011
+27169,27,169,Minnesota,Winona,2011
+36001,36,001,New York,Albany,2011
+36029,36,029,New York,Erie,2011
+36071,36,071,New York,Orange,2011
+39055,39,055,Ohio,Geauga,2011
+39085,39,085,Ohio,Lake,2011
+39149,39,149,Ohio,Shelby,2011
+39155,39,155,Ohio,Trumbull,2011
+42061,42,061,Pennsylvania,Huntingdon,2011
+42081,42,081,Pennsylvania,Lycoming,2011
+42113,42,113,Pennsylvania,Sullivan,2011
+42131,42,131,Pennsylvania,Wyoming,2011
+47009,47,009,Tennessee,Blount,2011
+47025,47,025,Tennessee,Claiborne,2011
+47057,47,057,Tennessee,Grainger,2011
+47155,47,155,Tennessee,Sevier,2011
+54003,54,003,West Virginia,Berkeley,2011
+54009,54,009,West Virginia,Brooke,2011
+54015,54,015,West Virginia,Clay,2011
+54021,54,021,West Virginia,Gilmer,2011
+54025,54,025,West Virginia,Greenbrier,2011
+54029,54,029,West Virginia,Hancock,2011
+54039,54,039,West Virginia,Kanawha,2011
+54059,54,059,West Virginia,Mingo,2011
+54089,54,089,West Virginia,Summers,2011
+54101,54,101,West Virginia,Webster,2011
+54105,54,105,West Virginia,Wirt,2011
+55063,55,063,Wisconsin,La Crosse,2011
+55101,55,101,Wisconsin,Racine,2011
+09009,09,009,Connecticut,New Haven,2012
+17073,17,073,Illinois,Henry,2012
+17095,17,095,Illinois,Knox,2012
+17103,17,103,Illinois,Lee,2012
+17115,17,115,Illinois,Macon,2012
+18065,18,065,Indiana,Henry,2012
+18111,18,111,Indiana,Newton,2012
+18149,18,149,Indiana,Starke,2012
+18159,18,159,Indiana,Tipton,2012
+18177,18,177,Indiana,Wayne,2012
+20209,20,209,Kansas,Wyandotte,2012
+21195,21,195,Kentucky,Pike,2012
+24023,24,023,Maryland,Garrett,2012
+24031,24,031,Maryland,Montgomery,2012
+24037,24,037,Maryland,St. Mary's,2012
+25003,25,003,Massachusetts,Berkshire,2012
+29123,29,123,Missouri,Madison,2012
+29165,29,165,Missouri,Platte,2012
+29179,29,179,Missouri,Reynolds,2012
+36027,36,027,New York,Dutchess,2012
+36063,36,063,New York,Niagara,2012
+36107,36,107,New York,Tioga,2012
+39013,39,013,Ohio,Belmont,2012
+39029,39,029,Ohio,Columbiana,2012
+39033,39,033,Ohio,Crawford,2012
+39059,39,059,Ohio,Guernsey,2012
+39083,39,083,Ohio,Knox,2012
+39097,39,097,Ohio,Madison,2012
+39119,39,119,Ohio,Muskingum,2012
+42017,42,017,Pennsylvania,Bucks,2012
+42035,42,035,Pennsylvania,Clinton,2012
+42055,42,055,Pennsylvania,Franklin,2012
+42065,42,065,Pennsylvania,Jefferson,2012
+42093,42,093,Pennsylvania,Montour,2012
+42097,42,097,Pennsylvania,Northumberland,2012
+42099,42,099,Pennsylvania,Perry,2012
+42109,42,109,Pennsylvania,Snyder,2012
+42121,42,121,Pennsylvania,Venango,2012
+47001,47,001,Tennessee,Anderson,2012
+47013,47,013,Tennessee,Campbell,2012
+47029,47,029,Tennessee,Cocke,2012
+47059,47,059,Tennessee,Greene,2012
+47063,47,063,Tennessee,Hamblen,2012
+47067,47,067,Tennessee,Hancock,2012
+47073,47,073,Tennessee,Hawkins,2012
+47089,47,089,Tennessee,Jefferson,2012
+47123,47,123,Tennessee,Monroe,2012
+47145,47,145,Tennessee,Roane,2012
+47159,47,159,Tennessee,Smith,2012
+47173,47,173,Tennessee,Union,2012
+51027,51,027,Virginia,Buchanan,2012
+51033,51,033,Virginia,Caroline,2012
+51037,51,037,Virginia,Charlotte,2012
+51071,51,071,Virginia,Giles,2012
+51083,51,083,Virginia,Halifax,2012
+51085,51,085,Virginia,Hanover,2012
+51105,51,105,Virginia,Lee,2012
+51107,51,107,Virginia,Loudoun,2012
+51117,51,117,Virginia,Mecklenburg,2012
+51143,51,143,Virginia,Pittsylvania,2012
+51147,51,147,Virginia,Prince Edward,2012
+51179,51,179,Virginia,Stafford,2012
+51187,51,187,Virginia,Warren,2012
+54007,54,007,West Virginia,Braxton,2012
+54027,54,027,West Virginia,Hampshire,2012
+54041,54,041,West Virginia,Lewis,2012
+54043,54,043,West Virginia,Lincoln,2012
+54055,54,055,West Virginia,Mercer,2012
+54057,54,057,West Virginia,Mineral,2012
+54085,54,085,West Virginia,Ritchie,2012
+55105,55,105,Wisconsin,Rock,2012
+55121,55,121,Wisconsin,Trempealeau,2012
+55127,55,127,Wisconsin,Walworth,2012
+55133,55,133,Wisconsin,Waukesha,2012
+08013,08,013,Colorado,Boulder,2013
+09001,09,001,Connecticut,Fairfield,2013
+09003,09,003,Connecticut,Hartford,2013
+09005,09,005,Connecticut,Litchfield,2013
+13089,13,089,Georgia,DeKalb,2013
+13121,13,121,Georgia,Fulton,2013
+17085,17,085,Illinois,Jo Daviess,2013
+17155,17,155,Illinois,Putnam,2013
+17161,17,161,Illinois,Rock Island,2013
+17195,17,195,Illinois,Whiteside,2013
+18025,18,025,Indiana,Crawford,2013
+18027,18,027,Indiana,Daviess,2013
+18041,18,041,Indiana,Fayette,2013
+18047,18,047,Indiana,Franklin,2013
+18055,18,055,Indiana,Greene,2013
+18071,18,071,Indiana,Jackson,2013
+18101,18,101,Indiana,Martin,2013
+18123,18,123,Indiana,Perry,2013
+18131,18,131,Indiana,Pulaski,2013
+18133,18,133,Indiana,Putnam,2013
+18145,18,145,Indiana,Shelby,2013
+18161,18,161,Indiana,Union,2013
+18167,18,167,Indiana,Vigo,2013
+19031,19,031,Iowa,Cedar,2013
+19057,19,057,Iowa,Des Moines,2013
+19101,19,101,Iowa,Jefferson,2013
+19175,19,175,Iowa,Union,2013
+20091,20,091,Kansas,Johnson,2013
+21013,21,013,Kentucky,Bell,2013
+21017,21,017,Kentucky,Bourbon,2013
+21041,21,041,Kentucky,Carroll,2013
+21191,21,191,Kentucky,Pendleton,2013
+21203,21,203,Kentucky,Rockcastle,2013
+21235,21,235,Kentucky,Whitley,2013
+24009,24,009,Maryland,Calvert,2013
+24021,24,021,Maryland,Frederick,2013
+25009,25,009,Massachusetts,Essex,2013
+29017,29,017,Missouri,Bollinger,2013
+29023,29,023,Missouri,Butler,2013
+29095,29,095,Missouri,Jackson,2013
+29157,29,157,Missouri,Perry,2013
+29169,29,169,Missouri,Pulaski,2013
+33013,33,013,New Hampshire,Merrimack,2013
+36011,36,011,New York,Cayuga,2013
+36025,36,025,New York,Delaware,2013
+36067,36,067,New York,Onondaga,2013
+36069,36,069,New York,Ontario,2013
+36077,36,077,New York,Otsego,2013
+36083,36,083,New York,Rensselaer,2013
+36095,36,095,New York,Schoharie,2013
+37077,37,077,North Carolina,Granville,2013
+37145,37,145,North Carolina,Person,2013
+37181,37,181,North Carolina,Vance,2013
+37185,37,185,North Carolina,Warren,2013
+39007,39,007,Ohio,Ashtabula,2013
+39015,39,015,Ohio,Brown,2013
+39031,39,031,Ohio,Coshocton,2013
+39047,39,047,Ohio,Fayette,2013
+39071,39,071,Ohio,Highland,2013
+39073,39,073,Ohio,Hocking,2013
+39075,39,075,Ohio,Holmes,2013
+39081,39,081,Ohio,Jefferson,2013
+39135,39,135,Ohio,Preble,2013
+39151,39,151,Ohio,Stark,2013
+39157,39,157,Ohio,Tuscarawas,2013
+42013,42,013,Pennsylvania,Blair,2013
+42015,42,015,Pennsylvania,Bradford,2013
+42021,42,021,Pennsylvania,Cambria,2013
+42023,42,023,Pennsylvania,Cameron,2013
+42033,42,033,Pennsylvania,Clearfield,2013
+42037,42,037,Pennsylvania,Columbia,2013
+42043,42,043,Pennsylvania,Dauphin,2013
+42047,42,047,Pennsylvania,Elk,2013
+42049,42,049,Pennsylvania,Erie,2013
+42051,42,051,Pennsylvania,Fayette,2013
+42053,42,053,Pennsylvania,Forest,2013
+42079,42,079,Pennsylvania,Luzerne,2013
+42091,42,091,Pennsylvania,Montgomery,2013
+42105,42,105,Pennsylvania,Potter,2013
+42117,42,117,Pennsylvania,Tioga,2013
+42123,42,123,Pennsylvania,Warren,2013
+47065,47,065,Tennessee,Hamilton,2013
+47087,47,087,Tennessee,Jackson,2013
+47151,47,151,Tennessee,Scott,2013
+54005,54,005,West Virginia,Boone,2013
+54017,54,017,West Virginia,Doddridge,2013
+54037,54,037,West Virginia,Jefferson,2013
+54061,54,061,West Virginia,Monongalia,2013
+54079,54,079,West Virginia,Putnam,2013
+55025,55,025,Wisconsin,Dane,2013
+55027,55,027,Wisconsin,Dodge,2013
+55031,55,031,Wisconsin,Douglas,2013
+55039,55,039,Wisconsin,Fond du Lac,2013
+55111,55,111,Wisconsin,Sauk,2013
+55139,55,139,Wisconsin,Winnebago,2013
+05019,05,019,Arkansas,Clark,2014
+05027,05,027,Arkansas,Columbia,2014
+05039,05,039,Arkansas,Dallas,2014
+05059,05,059,Arkansas,Hot Spring,2014
+05099,05,099,Arkansas,Nevada,2014
+05103,05,103,Arkansas,Ouachita,2014
+09007,09,007,Connecticut,Middlesex,2014
+09011,09,011,Connecticut,New London,2014
+13045,13,045,Georgia,Carroll,2014
+13063,13,063,Georgia,Clayton,2014
+13067,13,067,Georgia,Cobb,2014
+13113,13,113,Georgia,Fayette,2014
+13151,13,151,Georgia,Henry,2014
+13217,13,217,Georgia,Newton,2014
+13247,13,247,Georgia,Rockdale,2014
+13297,13,297,Georgia,Walton,2014
+13313,13,313,Georgia,Whitfield,2014
+17015,17,015,Illinois,Carroll,2014
+17029,17,029,Illinois,Coles,2014
+17041,17,041,Illinois,Douglas,2014
+17045,17,045,Illinois,Edgar,2014
+17053,17,053,Illinois,Ford,2014
+17107,17,107,Illinois,Logan,2014
+17123,17,123,Illinois,Marshall,2014
+17129,17,129,Illinois,Menard,2014
+17143,17,143,Illinois,Peoria,2014
+17145,17,145,Illinois,Perry,2014
+17147,17,147,Illinois,Piatt,2014
+17167,17,167,Illinois,Sangamon,2014
+17173,17,173,Illinois,Shelby,2014
+17177,17,177,Illinois,Stephenson,2014
+17179,17,179,Illinois,Tazewell,2014
+17183,17,183,Illinois,Vermilion,2014
+17187,17,187,Illinois,Warren,2014
+17199,17,199,Illinois,Williamson,2014
+17203,17,203,Illinois,Woodford,2014
+18005,18,005,Indiana,Bartholomew,2014
+18077,18,077,Indiana,Jefferson,2014
+18079,18,079,Indiana,Jennings,2014
+18109,18,109,Indiana,Morgan,2014
+18119,18,119,Indiana,Owen,2014
+18125,18,125,Indiana,Pike,2014
+18143,18,143,Indiana,Scott,2014
+18147,18,147,Indiana,Spencer,2014
+18153,18,153,Indiana,Sullivan,2014
+18155,18,155,Indiana,Switzerland,2014
+18173,18,173,Indiana,Warrick,2014
+19007,19,007,Iowa,Appanoose,2014
+19013,19,013,Iowa,Black Hawk,2014
+19015,19,015,Iowa,Boone,2014
+19017,19,017,Iowa,Bremer,2014
+19087,19,087,Iowa,Henry,2014
+19099,19,099,Iowa,Jasper,2014
+19103,19,103,Iowa,Johnson,2014
+19117,19,117,Iowa,Lucas,2014
+19123,19,123,Iowa,Mahaska,2014
+19125,19,125,Iowa,Marion,2014
+19135,19,135,Iowa,Monroe,2014
+19139,19,139,Iowa,Muscatine,2014
+19169,19,169,Iowa,Story,2014
+19179,19,179,Iowa,Wapello,2014
+20103,20,103,Kansas,Leavenworth,2014
+21011,21,011,Kentucky,Bath,2014
+21097,21,097,Kentucky,Harrison,2014
+21115,21,115,Kentucky,Johnson,2014
+21125,21,125,Kentucky,Laurel,2014
+21127,21,127,Kentucky,Lawrence,2014
+21147,21,147,Kentucky,McCreary,2014
+21199,21,199,Kentucky,Pulaski,2014
+21205,21,205,Kentucky,Rowan,2014
+21215,21,215,Kentucky,Spencer,2014
+21223,21,223,Kentucky,Trimble,2014
+24013,24,013,Maryland,Carroll,2014
+24510,24,510,Maryland,Baltimore City,2014
+25025,25,025,Massachusetts,Suffolk,2014
+27109,27,109,Minnesota,Olmsted,2014
+29047,29,047,Missouri,Clay,2014
+29183,29,183,Missouri,St. Charles,2014
+33011,33,011,New Hampshire,Hillsborough,2014
+33015,33,015,New Hampshire,Rockingham,2014
+34005,34,005,New Jersey,Burlington,2014
+34021,34,021,New Jersey,Mercer,2014
+34035,34,035,New Jersey,Somerset,2014
+36007,36,007,New York,Broome,2014
+36013,36,013,New York,Chautauqua,2014
+36119,36,119,New York,Westchester,2014
+39009,39,009,Ohio,Athens,2014
+39053,39,053,Ohio,Gallia,2014
+39067,39,067,Ohio,Harrison,2014
+39079,39,079,Ohio,Jackson,2014
+39105,39,105,Ohio,Meigs,2014
+39121,39,121,Ohio,Noble,2014
+39167,39,167,Ohio,Washington,2014
+42001,42,001,Pennsylvania,Adams,2014
+42011,42,011,Pennsylvania,Berks,2014
+42039,42,039,Pennsylvania,Crawford,2014
+42059,42,059,Pennsylvania,Greene,2014
+42075,42,075,Pennsylvania,Lebanon,2014
+42107,42,107,Pennsylvania,Schuylkill,2014
+42115,42,115,Pennsylvania,Susquehanna,2014
+42133,42,133,Pennsylvania,York,2014
+47037,47,037,Tennessee,Davidson,2014
+47049,47,049,Tennessee,Fentress,2014
+47107,47,107,Tennessee,McMinn,2014
+47129,47,129,Tennessee,Morgan,2014
+47139,47,139,Tennessee,Polk,2014
+47141,47,141,Tennessee,Putnam,2014
+47143,47,143,Tennessee,Rhea,2014
+47163,47,163,Tennessee,Sullivan,2014
+47179,47,179,Tennessee,Washington,2014
+51005,51,005,Virginia,Alleghany,2014
+51017,51,017,Virginia,Bath,2014
+51061,51,061,Virginia,Fauquier,2014
+51139,51,139,Virginia,Page,2014
+54031,54,031,West Virginia,Hardy,2014
+54035,54,035,West Virginia,Jackson,2014
+54045,54,045,West Virginia,Logan,2014
+54047,54,047,West Virginia,McDowell,2014
+54053,54,053,West Virginia,Mason,2014
+54069,54,069,West Virginia,Ohio,2014
+54073,54,073,West Virginia,Pleasants,2014
+54107,54,107,West Virginia,Wood,2014
+54109,54,109,West Virginia,Wyoming,2014
+55001,55,001,Wisconsin,Adams,2014
+55011,55,011,Wisconsin,Buffalo,2014
+55015,55,015,Wisconsin,Calumet,2014
+55021,55,021,Wisconsin,Columbia,2014
+55029,55,029,Wisconsin,Door,2014
+55043,55,043,Wisconsin,Grant,2014
+55055,55,055,Wisconsin,Jefferson,2014
+55081,55,081,Wisconsin,Monroe,2014
+55085,55,085,Wisconsin,Oneida,2014
+55117,55,117,Wisconsin,Sheboygan,2014
+13013,13,013,Georgia,,2015
+13057,13,057,Georgia,,2015
+13097,13,097,Georgia,,2015
+13111,13,111,Georgia,,2015
+13137,13,137,Georgia,,2015
+13213,13,213,Georgia,,2015
+13311,13,311,Georgia,,2015
+18107,18,107,Indiana,Montgomery,2015
+18115,18,115,Indiana,Ohio,2015
+19107,19,107,Iowa,Keokuk,2015
+22119,22,119,Louisiana,Webster,2015
+27037,27,037,Minnesota,Dakota,2015
+54011,54,011,West Virginia,Cabell,2015
+54033,54,033,West Virginia,Harrison,2015
+54099,54,099,West Virginia,Wayne,2015
+55087,55,087,Wisconsin,Outagamie,2015
+01015,01,015,Alabama,,2016
+13015,13,015,Georgia,,2016
+13123,13,123,Georgia,,2016
+13241,13,241,Georgia,,2016
+13291,13,291,Georgia,,2016
+31055,31,055,Nebraska,Douglas,2016
+48203,48,203,Texas,,2016
+01115,01,115,Alabama,,2017
+01121,01,121,Alabama,,2017
+19053,19,053,Iowa,,2017
+25015,25,015,Massachusetts,,2017
+36047,36,047,New York,,2017
+36081,36,081,New York,,2017
+45083,45,083,South Carolina,,2017
+55035,55,035,Wisconsin,,2017
+05003,05,003,Arkansas,,2018
+05005,05,005,Arkansas,,2018
+05089,05,089,Arkansas,,2018
+05095,05,095,Arkansas,,2018
+05113,05,113,Arkansas,,2018
+10005,10,005,Delaware,,2018
+13085,13,085,Georgia,,2018
+13187,13,187,Georgia,,2018
+13295,13,295,Georgia,,2018
+17069,17,069,Illinois,,2018
+17087,17,087,Illinois,,2018
+17151,17,151,Illinois,,2018
+19019,19,019,Iowa,,2018
+19047,19,047,Iowa,,2018
+19055,19,055,Iowa,,2018
+19075,19,075,Iowa,,2018
+19079,19,079,Iowa,,2018
+19083,19,083,Iowa,,2018
+19127,19,127,Iowa,,2018
+19145,19,145,Iowa,,2018
+19155,19,155,Iowa,,2018
+19171,19,171,Iowa,,2018
+21001,21,001,Kentucky,,2018
+21061,21,061,Kentucky,,2018
+21091,21,091,Kentucky,,2018
+21207,21,207,Kentucky,,2018
+22017,22,017,Louisiana,,2018
+23003,23,003,Maine,,2018
+23031,23,031,Maine,,2018
+25005,25,005,Massachusetts,,2018
+27171,27,171,Minnesota,,2018
+29001,29,001,Missouri,,2018
+29027,29,027,Missouri,,2018
+29031,29,031,Missouri,,2018
+29051,29,051,Missouri,,2018
+29077,29,077,Missouri,,2018
+29099,29,099,Missouri,,2018
+29111,29,111,Missouri,,2018
+29113,29,113,Missouri,,2018
+29167,29,167,Missouri,,2018
+29219,29,219,Missouri,,2018
+31109,31,109,Nebraska,,2018
+33003,33,003,New Hampshire,,2018
+33009,33,009,New Hampshire,,2018
+37083,37,083,North Carolina,,2018
+37099,37,099,North Carolina,,2018
+37113,37,113,North Carolina,,2018
+37175,37,175,North Carolina,,2018
+44007,44,007,Rhode Island,,2018
+46099,46,099,South Dakota,,2018
+47021,47,021,Tennessee,,2018
+47055,47,055,Tennessee,,2018
+47119,47,119,Tennessee,,2018
+48067,48,067,Texas,,2018
+48315,48,315,Texas,,2018
+50003,50,003,Vermont,,2018
+50005,50,005,Vermont,,2018
+50013,50,013,Vermont,,2018
+50017,50,017,Vermont,,2018
+50023,50,023,Vermont,,2018
+51007,51,007,Virginia,,2018
+51035,51,035,Virginia,,2018
+51041,51,041,Virginia,,2018
+51049,51,049,Virginia,,2018
+51051,51,051,Virginia,,2018
+51057,51,057,Virginia,,2018
+51065,51,065,Virginia,,2018
+51075,51,075,Virginia,,2018
+51089,51,089,Virginia,,2018
+51099,51,099,Virginia,,2018
+51109,51,109,Virginia,,2018
+51141,51,141,Virginia,,2018
+51145,51,145,Virginia,,2018
+51173,51,173,Virginia,,2018
+55019,55,019,Wisconsin,,2018
+55061,55,061,Wisconsin,,2018
+55109,55,109,Wisconsin,,2018
+08014,08,014,Colorado,,2019
+08069,08,069,Colorado,,2019
+13047,13,047,Georgia,,2019
+13055,13,055,Georgia,,2019
+13083,13,083,Georgia,,2019
+13129,13,129,Georgia,,2019
+13157,13,157,Georgia,,2019
+13223,13,223,Georgia,,2019
+19029,19,029,Iowa,,2019
+21009,21,009,Kentucky,,2019
+21055,21,055,Kentucky,,2019
+23005,23,005,Maine,,2019
+27105,27,105,Minnesota,,2019
+29025,29,025,Missouri,,2019
+29053,29,053,Missouri,,2019
+29067,29,067,Missouri,,2019
+29073,29,073,Missouri,,2019
+29081,29,081,Missouri,,2019
+29085,29,085,Missouri,,2019
+29087,29,087,Missouri,,2019
+29089,29,089,Missouri,,2019
+29091,29,091,Missouri,,2019
+29115,29,115,Missouri,,2019
+29139,29,139,Missouri,,2019
+29141,29,141,Missouri,,2019
+29147,29,147,Missouri,,2019
+29151,29,151,Missouri,,2019
+29153,29,153,Missouri,,2019
+29159,29,159,Missouri,,2019
+29163,29,163,Missouri,,2019
+29171,29,171,Missouri,,2019
+29175,29,175,Missouri,,2019
+29225,29,225,Missouri,,2019
+29229,29,229,Missouri,,2019
+31053,31,053,Nebraska,,2019
+34015,34,015,New Jersey,,2019
+34031,34,031,New Jersey,,2019
+36015,36,015,New York,,2019
+36021,36,021,New York,,2019
+36061,36,061,New York,,2019
+36073,36,073,New York,,2019
+36075,36,075,New York,,2019
+36079,36,079,New York,,2019
+36097,36,097,New York,,2019
+36099,36,099,New York,,2019
+36103,36,103,New York,,2019
+36109,36,109,New York,,2019
+36117,36,117,New York,,2019
+36121,36,121,New York,,2019
+37023,37,023,North Carolina,,2019
+37027,37,027,North Carolina,,2019
+37037,37,037,North Carolina,,2019
+37059,37,059,North Carolina,,2019
+37107,37,107,North Carolina,,2019
+37111,37,111,North Carolina,,2019
+37127,37,127,North Carolina,,2019
+37149,37,149,North Carolina,,2019
+37159,37,159,North Carolina,,2019
+37169,37,169,North Carolina,,2019
+37189,37,189,North Carolina,,2019
+37197,37,197,North Carolina,,2019
+47011,47,011,Tennessee,,2019
+47019,47,019,Tennessee,,2019
+47031,47,031,Tennessee,,2019
+47091,47,091,Tennessee,,2019
+47111,47,111,Tennessee,,2019
+47121,47,121,Tennessee,,2019
+47127,47,127,Tennessee,,2019
+47133,47,133,Tennessee,,2019
+47137,47,137,Tennessee,,2019
+47153,47,153,Tennessee,,2019
+50001,50,001,Vermont,,2019
+50019,50,019,Vermont,,2019
+50025,50,025,Vermont,,2019
+51025,51,025,Virginia,,2019
+51053,51,053,Virginia,,2019
+51081,51,081,Virginia,,2019
+51087,51,087,Virginia,,2019
+51097,51,097,Virginia,,2019
+51101,51,101,Virginia,,2019
+51127,51,127,Virginia,,2019
+51175,51,175,Virginia,,2019
+51183,51,183,Virginia,,2019
+51760,51,760,Virginia,,2019
+55093,55,093,Wisconsin,,2019
+08001,08,001,Colorado,,2020
+10001,10,001,Delaware,Kent,2020
+13011,13,011,Georgia,Banks,2020
+13035,13,035,Georgia,Butts,2020
+13115,13,115,Georgia,Floyd,2020
+13227,13,227,Georgia,Pickens,2020
+13255,13,255,Georgia,Spalding,2020
+17163,17,163,Illinois,St. Clair,2020
+17181,17,181,Illinois,Union,2020
+19009,19,009,Iowa,,2020
+19033,19,033,Iowa,Cerro Gordo,2020
+19077,19,077,Iowa,,2020
+19129,19,129,Iowa,Mills,2020
+19161,19,161,Iowa,Sac,2020
+19165,19,165,Iowa,Shelby,2020
+19187,19,187,Iowa,Webster,2020
+20085,20,085,Kansas,,2020
+21059,21,059,Kentucky,Daviess,2020
+21101,21,101,Kentucky,Henderson,2020
+21171,21,171,Kentucky,Monroe,2020
+21177,21,177,Kentucky,Muhlenberg,2020
+24039,24,039,Maryland,Somerset,2020
+25011,25,011,Massachusetts,Franklin,2020
+27019,27,019,Minnesota,Carver,2020
+27131,27,131,Minnesota,Rice,2020
+27143,27,143,Minnesota,Sibley,2020
+29033,29,033,Missouri,Carroll,2020
+29039,29,039,Missouri,Cedar,2020
+29043,29,043,Missouri,Christian,2020
+29061,29,061,Missouri,Daviess,2020
+29101,29,101,Missouri,Johnson,2020
+29107,29,107,Missouri,Lafayette,2020
+29117,29,117,Missouri,Livingston,2020
+29135,29,135,Missouri,Moniteau,2020
+29137,29,137,Missouri,Monroe,2020
+29195,29,195,Missouri,Saline,2020
+29211,29,211,Missouri,Sullivan,2020
+31079,31,079,Nebraska,Hall,2020
+31159,31,159,Nebraska,Seward,2020
+34029,34,029,New Jersey,,2020
+34039,34,039,New Jersey,,2020
+36019,36,019,New York,Clinton,2020
+36023,36,023,New York,Cortland,2020
+36059,36,059,New York,Nassau,2020
+36113,36,113,New York,Warren,2020
+37045,37,045,North Carolina,Cleveland,2020
+37123,37,123,North Carolina,Montgomery,2020
+45007,45,007,South Carolina,,2020
+45077,45,077,South Carolina,,2020
+45091,45,091,South Carolina,,2020
+47015,47,015,Tennessee,Cannon,2020
+47027,47,027,Tennessee,Clay,2020
+47043,47,043,Tennessee,Dickson,2020
+47061,47,061,Tennessee,Grundy,2020
+47081,47,081,Tennessee,Hickman,2020
+47101,47,101,Tennessee,,2020
+47177,47,177,Tennessee,Warren,2020
+50007,50,007,Vermont,Chittenden,2020
+50011,50,011,Vermont,Franklin,2020
+50021,50,021,Vermont,Rutland,2020
+55037,55,037,Wisconsin,Florence,2020
+55083,55,083,Wisconsin,Oconto,2020
+55091,55,091,Wisconsin,Pepin,2020
+55099,55,099,Wisconsin,Price,2020
+55115,55,115,Wisconsin,Shawano,2020
+41067,41,067,Oregon,Washington,2022
