@@ -4,11 +4,12 @@
 Hackathon entry for ZerveHack (Devpost). Dual-track analysis: (A) do golf scores improve after EAB kills ash trees on courses, (B) model EAB spread and project ash extinction timeline. See `ash-borer-plan.md` for the full roadmap.
 
 ## Current Phase
-**Phase 2: Analysis Pipeline (Local)** (Weeks 3–4, target end ~Mar 27)
-- Phase 1 complete (milestone closed). All data acquired.
-- Issue #6 (Track A DiD) complete — result: EAB improves scores by ~0.76 strokes (p=0.005)
-- Issue #7 (Track B spatial spread model) complete — see Track B Result below
-- **Next up: Issue #8** (extinction projection refinement — multi-year FIA pulls)
+**Phase 2 COMPLETE. Moving to Phase 3: Build in Zerve** (Weeks 5-6)
+- Issues #6, #7, #8 all complete — both tracks have full results
+- Issue #12 complete — 300-word Devpost summary drafted
+- Demo storyboard drafted, social media post drafted
+- **Next up: Issue #9** (transfer pipeline to Zerve, wire up DAG) — requires Zerve platform
+- Then #10 (Fleet), #11 (App Builder), #13 (record video), #14 (submit)
 
 ## Track A Result
 DiD with player + course + year fixed effects (R/fixest):
@@ -22,10 +23,17 @@ Polynomial ridge regression on spatial features (Python/sklearn):
 - **CV MAE: 2.32 years**, R2: 0.635
 - Median spread speed: **53 km/year** from Wayne County, MI origin
 - Predicts all contiguous US counties reached by **~2037** (Pacific NW last)
-- Extinction projection: **8.15B baseline ash trees**, <3% surviving by 2025
-- Functional extinction (~1% remaining) by **~2027**
-- County centroids from Census TIGERweb API (cached at `data/raw/census_county_centroids.csv`)
+- County centroids from Census TIGERweb API (cached)
 - Outputs: `data/processed/eab_predicted_spread.csv` (3,109 counties), `data/processed/ash_extinction_timeline.csv`
+
+## Track B Calibrated Extinction (Issue #8)
+Multi-year FIA data (40,959 records, 16 states, 2005-2023) calibrates mortality:
+- **Literature**: 99% mortality in 6 years (mature canopy trees in core zone)
+- **Observed**: 3.82% annual mortality (all trees incl. seedlings/regeneration)
+- **50% ash remaining by ~2035** (calibrated), vs. ~2019 (literature)
+- White ash hardest hit (-21.3%); black ash still growing (+10.7%)
+- MI: -30%, OH: -45%, PA: -52% since EAB arrival
+- Outputs: `data/processed/ash_extinction_calibrated.csv`, `data/processed/mortality_by_species.csv`
 
 ## Key Decisions
 - Track A: R + difference-in-differences causal inference
@@ -33,7 +41,7 @@ Polynomial ridge regression on spatial features (Python/sklearn):
 - SQL for data wrangling in Zerve
 - All dev work done locally with Claude; Zerve used only for execution/deployment (credit conservation)
 - Extended PGA data back to 2009 (historical dataset) to unlock 5 treatment courses for DiD
-- FIA data pulled via FIADB REST API; current snapshot is single eval year per state — need multi-year pulls for Track B extinction modeling (see comment on issue #8)
+- FIA data pulled via FIADB REST API; single snapshot + multi-year (40,959 records) for calibration
 
 ## Data Status
 - `data/raw/eab_detections_by_county.csv` — 867 US counties, FIPS + detection year (2002-2022)
@@ -45,6 +53,9 @@ Polynomial ridge regression on spatial features (Python/sklearn):
 - `data/raw/census_county_centroids.csv` — 3,235 US county centroids (TIGERweb API)
 - `data/processed/eab_predicted_spread.csv` — 3,109 counties with actual/predicted EAB arrival year
 - `data/processed/ash_extinction_timeline.csv` — year-by-year ash population projection (2002-2075)
+- `data/raw/fia_ash_multiyear.csv` — 40,959 records, 16 states x 19 eval years (2005-2023)
+- `data/processed/ash_extinction_calibrated.csv` — calibrated extinction timeline
+- `data/processed/mortality_by_species.csv` — species-level decline rates
 
 ## Repo Structure
 ```
@@ -60,6 +71,11 @@ src/                # Fetch scripts and analysis code
   build_analysis_table.py
   track_a_did.R
   track_b_spread_model.py
+  fetch_fia_multiyear.py
+  calibrate_extinction.py
+devpost_summary.md    # 300-word Devpost summary
+demo_storyboard.md    # 3-min demo video storyboard
+social_post_draft.md  # LinkedIn post draft
 ```
 
 ## Environment
