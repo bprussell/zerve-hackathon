@@ -21,11 +21,11 @@ ax.fill_between(years, pct_lit, pct_cal,
 
 # Literature projection (aggressive)
 ax.plot(years, pct_lit, color=ORANGE, linewidth=2.5, linestyle="--",
-        label="Literature (99% mortality in 6 yr)", zorder=3)
+        label="Literature rate (mature canopy trees)", zorder=3)
 
 # Calibrated projection (FIA observed)
 ax.plot(years, pct_cal, color=BLUE, linewidth=2.5, linestyle="-",
-        label="Calibrated (FIA observed decline)", zorder=3)
+        label="FIA observed (all size classes)", zorder=3)
 
 # Reference lines at 50% and 10%
 ax.axhline(y=50, color="#999", linewidth=0.8, linestyle=":", alpha=0.7)

@@ -6,8 +6,11 @@ Hackathon entry for ZerveHack (Devpost). Dual-track analysis: (A) do golf scores
 ## Current Phase
 **Phase 3: Build in Zerve** (Weeks 5-6)
 - Phase 2 complete (Issues #6, #7, #8, #12 all closed)
-- **Issue #9 in progress** — all 4 analysis blocks working in Zerve, DAG wired
-- Still need: visualization blocks, then #10 (Fleet), #11 (App Builder)
+- **Issue #9 in progress** — all 8 blocks ready (4 analysis + 4 viz), DAG wired
+- Block 7 (spread map) redesigned: ash density heatmap + EAB overlay (no speculative year predictions)
+- Block 4 fix: predicted arrival years clamped to >= 2023 for undetected counties
+- Blocks 5, 6, 8 still need testing in Zerve
+- Still need: #10 (Fleet), #11 (App Builder)
 - Drafts ready: Devpost summary, demo storyboard, social media post
 
 ## Track A Result
@@ -22,7 +25,8 @@ Polynomial ridge regression on spatial features (Python/sklearn):
 - **861 training counties** (known EAB detections, 2002-2022)
 - **CV MAE: 2.32 years**, R2: 0.635
 - Median spread speed: **53 km/year** from Wayne County, MI origin
-- Predicts all contiguous US counties reached by **~2037** (Pacific NW last)
+- County-level arrival year predictions are speculative (model extrapolates poorly for distant counties)
+- Viz focuses on ash density + EAB overlay rather than predicted arrival years
 
 ## Track B Calibrated Extinction (Issue #8)
 Multi-year FIA data (40,959 records, 16 states, 2005-2023) calibrates mortality:
@@ -32,10 +36,16 @@ Multi-year FIA data (40,959 records, 16 states, 2005-2023) calibrates mortality:
 - 8.1 billion baseline ash trees across 1,880 counties
 
 ## Zerve Pipeline Status
-All 4 blocks running end-to-end in Zerve:
+All 8 blocks (4 analysis + 4 visualization) ready for Zerve:
 ```
-[Python: ingest.load_data] → [Python: wrangle.track_a] → [R: analysis.track_a_did]
-[Python: ingest.load_data] → [Python: analysis.track_b_spread]
+[Block 1: ingest.load_data (Py)]
+    ├→ [Block 2: wrangle.track_a (Py)]
+    │       ├→ [Block 3: analysis.track_a_did (R)]
+    │       ├→ [Block 5: viz.track_a_trend (R)]
+    │       └→ [Block 6: viz.track_a_coef (R)]
+    └→ [Block 4: analysis.track_b_spread (Py)]
+            ├→ [Block 7: viz.spread_map (Py)]
+            └→ [Block 8: viz.extinction_timeline (Py)]
 ```
 
 ### Zerve-Specific Notes
@@ -43,7 +53,11 @@ All 4 blocks running end-to-end in Zerve:
 - **Python→R variable passing**: Zerve serializes ALL variables via Parquet. Must `del` all non-DataFrame variables (dicts, functions, Series, loop vars) at end of Python blocks before R blocks.
 - **`or` with pandas Series**: Don't use `geo_lookup.get(x) or geo_lookup.get(y)` — Series truthiness is ambiguous. Use explicit `if x is None` pattern.
 - **Available R packages**: lme4, data.table, stats, ggplot2, dplyr, tidyverse (but NOT fixest, lfe, plm)
+- **R ggplot rendering**: assign to a named variable (e.g. `trend_plot <- ggplot(...)`) — Zerve auto-renders it inline. No `print()`, `ggsave()`, or `png()` needed.
 - **Block code files**: all saved in `zerve_blocks/` for easy copy-paste into Zerve canvas
+- **matplotlib aspect ratio**: must use `set_aspect(1/np.cos(np.radians(37)))` for geographic maps, not `"equal"` (which stretches E-W)
+- **State outlines**: embedded as gzipped base64 Census Bureau 20m GeoJSON in block 7 (~29KB, stdlib only: json+gzip+base64)
+- **FIA data gap**: `fetch_fia_ash_data.py` only queried 30 states — AR, CO, SD, MT, etc. have zero ash records (data limitation, not reality)
 
 ## Key Decisions
 - Track A: R + difference-in-differences causal inference
@@ -56,7 +70,8 @@ All 4 blocks running end-to-end in Zerve:
 - `data/raw/eab_detections_by_county.csv` — 867 US counties, FIPS + detection year (2002-2022)
 - `data/raw/ASA All PGA Raw Data - Tourn Level.csv` — 36,864 rows, 2015-2022, strokes gained
 - `data/raw/pga_historical/` — 61,283 leaderboard rows + 505 tournaments, 2009-2022
-- `data/raw/fia_ash_by_county.csv` — 3,159 records, ash tree estimates by county (single snapshot)
+- `data/raw/fia_ash_by_county.csv` — 3,159 records, ash tree estimates by county (single snapshot, 30 states — AR, SD, CO, MT, ND, ID, WA, OR, NM, UT, WY, NV, CT, DC not covered)
+- `data/raw/us_states_20m.json` — Census Bureau 20m state boundaries GeoJSON (for viz)
 - `data/raw/fia_ash_multiyear.csv` — 40,959 records, 16 states x 19 eval years (2005-2023)
 - `data/raw/census_county_centroids.csv` — 3,235 US county centroids (TIGERweb API)
 - `data/processed/pga_courses_geocoded.csv` — 72 US courses with FIPS county codes
@@ -87,6 +102,10 @@ zerve_blocks/       # Code files for Zerve canvas blocks
   block2_wrangle_track_a.py
   block3_track_a_did.R
   block4_track_b_spread.py
+  block5_viz_track_a_trend.R
+  block6_viz_track_a_coef.R
+  block7_viz_spread_map.py
+  block8_viz_extinction_timeline.py
   block_r_probe.R
 devpost_summary.md    # 300-word Devpost summary
 demo_storyboard.md    # 3-min demo video storyboard

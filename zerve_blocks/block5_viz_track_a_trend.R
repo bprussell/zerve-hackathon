@@ -24,7 +24,7 @@ cat(sprintf("Average EAB arrival year: %.1f\n", avg_eab_year))
 counts <- aggregate(score_vs_par ~ year + group, data = dt, FUN = length)
 names(counts)[3] <- "n"
 
-p <- ggplot(agg, aes(x = year, y = score_vs_par, color = group)) +
+trend_plot <- ggplot(agg, aes(x = year, y = score_vs_par, color = group)) +
   geom_line(linewidth = 1.2) +
   geom_point(size = 2.5) +
   geom_vline(xintercept = avg_eab_year, linetype = "dashed",
@@ -50,10 +50,7 @@ p <- ggplot(agg, aes(x = year, y = score_vs_par, color = group)) +
     panel.grid.minor = element_blank()
   )
 
-print(p)
-ggsave("track_a_trend.png", p, width = 10, height = 6, dpi = 150)
-
-cat("\nTrend chart saved.\n")
+cat("\nTrend chart ready.\n")
 cat(sprintf("Years: %d-%d\n", min(agg$year), max(agg$year)))
 cat(sprintf("EAB course-years: %d, Non-EAB course-years: %d\n",
     sum(counts$n[counts$group == "EAB Courses"]),

@@ -22,7 +22,7 @@ coef_df <- data.frame(
   ci_high = ci_hi
 )
 
-p <- ggplot(coef_df, aes(x = estimate, y = term)) +
+coef_plot <- ggplot(coef_df, aes(x = estimate, y = term)) +
   # Null hypothesis line
   geom_vline(xintercept = 0, linetype = "dashed",
              color = "#999999", linewidth = 0.8) +
@@ -57,8 +57,5 @@ p <- ggplot(coef_df, aes(x = estimate, y = term)) +
     panel.grid.major.y = element_blank()
   )
 
-print(p)
-ggsave("track_a_coef.png", p, width = 9, height = 4, dpi = 150)
-
-cat("\nCoefficient plot saved.\n")
+cat("\nCoefficient plot ready.\n")
 cat("The beetle helps your golf game: -0.76 strokes (p = 0.002)\n")
