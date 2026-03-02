@@ -93,7 +93,8 @@ df["arrival_year"] = df.apply(
     lambda r: int(r["year_detected"]) if r["has_eab"] == 1 else round(r["predicted_year"]),
     axis=1,
 ).astype(int)
-df.loc[df["arrival_year"] < 2002, "arrival_year"] = 2002
+df.loc[(df["has_eab"] == 1) & (df["arrival_year"] < 2002), "arrival_year"] = 2002
+df.loc[(df["has_eab"] == 0) & (df["arrival_year"] < 2023), "arrival_year"] = 2023
 df.loc[df["arrival_year"] > 2075, "arrival_year"] = 2075
 
 unknown = df[df["has_eab"] == 0]
