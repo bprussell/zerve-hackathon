@@ -6,10 +6,7 @@ Hackathon entry for ZerveHack (Devpost). Dual-track analysis: (A) do golf scores
 ## Current Phase
 **Phase 3: Build in Zerve** (Weeks 5-6)
 - Phase 2 complete (Issues #6, #7, #8, #12 all closed)
-- **Issue #9 in progress** — all 8 blocks ready (4 analysis + 4 viz), DAG wired
-- Block 7 (spread map) redesigned: ash density heatmap + EAB overlay (no speculative year predictions)
-- Block 4 fix: predicted arrival years clamped to >= 2023 for undetected counties
-- Blocks 5, 6, 8 still need testing in Zerve
+- **Issue #9 closed** — all 8 blocks running in Zerve (4 analysis + 4 viz), DAG wired
 - Still need: #10 (Fleet), #11 (App Builder)
 - Drafts ready: Devpost summary, demo storyboard, social media post
 
