@@ -7,7 +7,12 @@ Hackathon entry for ZerveHack (Devpost). Dual-track analysis: (A) do golf scores
 **Phase 3: Build in Zerve** (Weeks 5-6)
 - Phase 2 complete (Issues #6, #7, #8, #12 all closed)
 - **Issue #9 closed** — all 8 blocks running in Zerve (4 analysis + 4 viz), DAG wired
-- Still need: #10 (Fleet), #11 (App Builder)
+- **Issue #10 closed** — Fleet not needed
+- **Issue #11 in progress** — App Builder multi-page app
+  - Page 1: EAB Spread Explorer (slider 2002-2022) — DONE, working
+  - Page 2: Extinction Timeline — DONE, working
+  - Page 3: Golf Score Impact (coefficient plot) — TODO
+  - Page 4: Ash Habitat Overview (static map) — TODO (optional)
 - Drafts ready: Devpost summary, demo storyboard, social media post
 
 ## Track A Result
@@ -33,16 +38,23 @@ Multi-year FIA data (40,959 records, 16 states, 2005-2023) calibrates mortality:
 - 8.1 billion baseline ash trees across 1,880 counties
 
 ## Zerve Pipeline Status
-All 8 blocks (4 analysis + 4 visualization) ready for Zerve:
+All 8 analysis/viz blocks + app blocks running in Zerve:
 ```
-[Block 1: ingest.load_data (Py)]
-    ├→ [Block 2: wrangle.track_a (Py)]
-    │       ├→ [Block 3: analysis.track_a_did (R)]
-    │       ├→ [Block 5: viz.track_a_trend (R)]
-    │       └→ [Block 6: viz.track_a_coef (R)]
-    └→ [Block 4: analysis.track_b_spread (Py)]
-            ├→ [Block 7: viz.spread_map (Py)]
-            └→ [Block 8: viz.extinction_timeline (Py)]
+Development Layer:
+[ingest.load_data (Py)]
+    ├→ [wrangle.track_a (Py)]
+    │       ├→ [analysis.track_a_did (R)]
+    │       ├→ [viz.track_a_trend (R)]
+    │       └→ [viz.track_a_coef (R)]
+    └→ [analysis.track_b_spread (Py)]
+            ├→ [viz.spread_map (Py)]  — saves spread_map.png
+            ├→ [viz.extinction_timeline (Py)]  — saves extinction_timeline.png
+            └→ [app.prerender_frames (Py)]  — saves ./frames/2002-2022.png
+
+App (no DAG arrows to upstream blocks):
+[app.input (slider)] → [app.eab_spread_map] → [app.output]  (Page 1)
+[app.extinction_timeline] → [app.timeline]                    (Page 2)
+[app.page3_coef] → [app.coef_output]                          (Page 3, TODO)
 ```
 
 ### Zerve-Specific Notes
@@ -55,6 +67,10 @@ All 8 blocks (4 analysis + 4 visualization) ready for Zerve:
 - **matplotlib aspect ratio**: must use `set_aspect(1/np.cos(np.radians(37)))` for geographic maps, not `"equal"` (which stretches E-W)
 - **State outlines**: embedded as gzipped base64 Census Bureau 20m GeoJSON in block 7 (~29KB, stdlib only: json+gzip+base64)
 - **FIA data gap**: `fetch_fia_ash_data.py` only queried 30 states — AR, CO, SD, MT, etc. have zero ash records (data limitation, not reality)
+- **App Builder re-runs upstream blocks** on every Submit — no way around it. Solution: pre-render frames to `./frames/` as PNG files, then app block reads from disk with no upstream DAG arrows.
+- **App Builder layers**: only Development, API, Scheduled Jobs available. No separate "app layer." App Builder is a feature within Development layer.
+- **App Builder static pages**: Output blocks show "will appear once executed" until triggered. Workaround: add a dummy Input + Submit, render once, then remove the dummy Input. The output persists.
+- **App Builder ~10s overhead**: even with instant file reads, App Builder adds ~7-10s platform overhead (compute spin-up, Python init, matplotlib import). This is a Zerve limitation.
 
 ## Key Decisions
 - Track A: R + difference-in-differences causal inference
@@ -103,6 +119,11 @@ zerve_blocks/       # Code files for Zerve canvas blocks
   block6_viz_track_a_coef.R
   block7_viz_spread_map.py
   block8_viz_extinction_timeline.py
+  block9_app_spread_slider.py      # App Page 1: reads ./frames/{year}.png
+  block10_prerender_frames.py      # Pre-renders 21 spread map PNGs to ./frames/
+  block11_app_page2_extinction.py  # App Page 2: reads extinction_timeline.png
+  block12_app_page3_coef.py        # App Page 3: self-contained DiD coef plot
+  block13_app_page4_spread_static.py  # App Page 4: reads spread_map.png
   block_r_probe.R
 devpost_summary.md    # 300-word Devpost summary
 demo_storyboard.md    # 3-min demo video storyboard
