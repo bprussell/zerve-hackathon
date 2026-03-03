@@ -24,7 +24,7 @@ cat(sprintf("Average EAB arrival year: %.1f\n", avg_eab_year))
 counts <- aggregate(score_vs_par ~ year + group, data = dt, FUN = length)
 names(counts)[3] <- "n"
 
-trend_plot <- ggplot(agg, aes(x = year, y = score_vs_par, color = group)) +
+p <- ggplot(agg, aes(x = year, y = score_vs_par, color = group)) +
   geom_line(linewidth = 1.2) +
   geom_point(size = 2.5) +
   geom_vline(xintercept = avg_eab_year, linetype = "dashed",
@@ -49,6 +49,9 @@ trend_plot <- ggplot(agg, aes(x = year, y = score_vs_par, color = group)) +
     legend.position = "top",
     panel.grid.minor = element_blank()
   )
+
+# Export aggregated data for downstream Python block to save PNG
+trend_data <- agg
 
 cat("\nTrend chart ready.\n")
 cat(sprintf("Years: %d-%d\n", min(agg$year), max(agg$year)))
