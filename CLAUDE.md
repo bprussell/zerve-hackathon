@@ -8,11 +8,12 @@ Hackathon entry for ZerveHack (Devpost). Dual-track analysis: (A) do golf scores
 - Phase 2 complete (Issues #6, #7, #8, #12 all closed)
 - **Issue #9 closed** — all 8 blocks running in Zerve (4 analysis + 4 viz), DAG wired
 - **Issue #10 closed** — Fleet not needed
-- **Issue #11 in progress** — App Builder multi-page app
-  - Page 1: EAB Spread Explorer (slider 2002-2022) — DONE, working
-  - Page 2: Extinction Timeline — DONE, working
-  - Page 3: Golf Score Impact (coefficient plot) — TODO
-  - Page 4: Ash Habitat Overview (static map) — TODO (optional)
+- **Issue #11 closed** — App published: https://app.zerve.ai/apps/34de12c2-d440-4c68-9cd1-062557b4ee54/the-ash-borer-effect
+  - Single-page: EAB Spread Explorer (slider 2002-2022)
+  - Multi-page abandoned (published apps don't persist rendered state across pages)
+  - All 4 viz still render in Development layer canvas for demo video
+- **Issue #13 open** — Demo video
+- **Issue #14 open** — Devpost submission + social post
 - Drafts ready: Devpost summary, demo storyboard, social media post
 
 ## Track A Result
