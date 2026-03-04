@@ -355,15 +355,19 @@
         }
         .question-text {
             font-family: var(--font-display);
-            font-size: clamp(1.5rem, 4.5vw, 3.5rem);
+            font-size: clamp(1.5rem, 3.8vw, 3rem);
             line-height: 1.15;
             position: relative;
             z-index: 2;
-            max-width: min(85vw, 800px);
+            max-width: min(92vw, 1000px);
         }
         .question-text .highlight {
             color: var(--emerald);
             text-shadow: 0 0 30px var(--emerald-glow);
+        }
+        .question-text .warn-text {
+            color: var(--orange);
+            text-shadow: 0 0 30px var(--orange-glow);
         }
 
         /* ===========================================
@@ -690,8 +694,8 @@
 <section class="slide question-slide">
     <div class="slide-content" style="align-items: center; justify-content: center;">
         <p class="question-text reveal">
-            Fewer trees mean wider fairways.<br>
-            Does an ecological disaster<br>
+            <span style="white-space: nowrap;">Fewer trees mean wider fairways.</span><br>
+            Does an ecological <span class="warn-text">disaster</span><br>
             actually make golfers <span class="highlight">better</span>?
         </p>
     </div>
