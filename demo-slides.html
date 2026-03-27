@@ -428,8 +428,8 @@
            SLIDE 7-8: TRACK A RESULTS
            =========================================== */
         .viz-slide .img-container {
-            max-width: min(80vw, 850px);
-            max-height: min(50vh, 420px);
+            max-width: min(95vw, 1200px);
+            max-height: min(72vh, 650px);
             margin: 0 auto;
             margin-top: clamp(0.5rem, 1.5vw, 1.5rem);
             border-radius: 10px;
@@ -444,7 +444,7 @@
             width: 100%;
             height: 100%;
             object-fit: contain;
-            max-height: min(50vh, 420px);
+            max-height: min(72vh, 650px);
         }
 
         /* Big stat callout */
@@ -478,8 +478,8 @@
            SLIDE 11: THE APP
            =========================================== */
         .app-slide .app-frame {
-            max-width: min(80vw, 850px);
-            max-height: min(55vh, 450px);
+            max-width: min(95vw, 1200px);
+            max-height: min(75vh, 700px);
             margin: 0 auto;
             margin-top: clamp(0.5rem, 1.5vw, 1.5rem);
             border-radius: 12px;
@@ -494,7 +494,7 @@
             width: 100%;
             height: 100%;
             object-fit: contain;
-            max-height: min(55vh, 450px);
+            max-height: min(75vh, 700px);
         }
 
         /* ===========================================
@@ -719,17 +719,11 @@
 <section class="slide viz-slide">
     <span class="section-number">06</span>
     <div class="slide-content" style="align-items: center;">
-        <h2 class="slide-heading reveal">Built End-to-End in <span class="accent">Zerve</span></h2>
-        <p class="slide-subheading reveal">Python + R running side by side on a single canvas</p>
-        <div class="img-container reveal-scale" style="margin-top: clamp(0.5rem, 1.5vw, 1.5rem);">
-            <!-- Replace with: <img src="assets/zerve-canvas.png" alt="Zerve canvas DAG"> -->
-            <div class="img-placeholder">
-                <span class="icon">🔀</span>
-                Replace with Zerve canvas screenshot<br>
-                <small>Full DAG: ingest → Track A (R) + Track B (Python) → viz blocks</small>
-            </div>
+        <h2 class="slide-heading reveal" style="margin-bottom: 0;">Built End-to-End in <span class="accent">Zerve</span></h2>
+        <p class="slide-subheading reveal" style="margin-bottom: 0;">Python + R running side by side on a single canvas</p>
+        <div class="img-container reveal-scale" style="margin-top: clamp(0.25rem, 0.5vw, 0.5rem);">
+            <img src="assets/zerve-canvas.png" alt="Zerve canvas DAG showing full pipeline">
         </div>
-        <p class="stat-detail reveal" style="margin-top: clamp(0.5rem, 1vw, 1rem);">3 data sources &bull; R for causal inference &bull; Python for spatial modeling</p>
     </div>
 </section>
 
@@ -760,16 +754,11 @@
     <div class="slide-content" style="align-items: center;">
         <h2 class="slide-heading reveal">Ash Extinction Timeline</h2>
         <div class="stat-row reveal">
-            <span class="stat-big warn">2035</span>
+            <span class="stat-big warn">2039</span>
             <span class="stat-label">half of America's 8 billion ash trees gone</span>
         </div>
         <div class="img-container reveal-scale" style="margin-top: clamp(0.5rem, 1vw, 1rem);">
-            <!-- Replace with: <img src="assets/extinction_timeline.png" alt="Extinction timeline"> -->
-            <div class="img-placeholder">
-                <span class="icon">📉</span>
-                Replace with extinction_timeline.png<br>
-                <small>Literature rate vs. FIA-calibrated, 50% crossing points</small>
-            </div>
+            <img src="assets/extinction-timeline.png" alt="Ash extinction timeline — 50% gone by 2039">
         </div>
         <p class="stat-detail reveal">Calibrated from 40,959 multi-year USDA Forest Inventory records across 16 states</p>
     </div>
@@ -786,12 +775,7 @@
         <h2 class="slide-heading reveal">Interactive <span class="accent">Explorer</span></h2>
         <p class="slide-subheading reveal">Deployed via Zerve App Builder</p>
         <div class="app-frame reveal-scale">
-            <!-- Replace with: <img src="assets/app-screenshot.png" alt="Zerve app screenshot"> -->
-            <div class="img-placeholder">
-                <span class="icon">🖥️</span>
-                Replace with published app screenshot<br>
-                <small>Year slider 2002-2022 animating the spread map</small>
-            </div>
+            <video src="assets/ash-borer-spread.mp4" autoplay loop muted playsinline style="width:100%; height:100%; object-fit:contain; max-height:min(75vh,700px);"></video>
         </div>
         <p class="stat-detail reveal" style="margin-top: clamp(0.5rem, 1vw, 1rem);">Pick a year and watch the beetle march across the country</p>
     </div>
