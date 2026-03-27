@@ -1,37 +1,46 @@
 # Demo Video Storyboard (3 minutes max)
 
-## 0:00-0:15 — The Hook
-- Screen: Title card "The Ash Borer Effect"
-- Voiceover: "Does an invasive beetle improve your golf game? We used PGA Tour data, USDA forest surveys, and causal inference to find out."
-- Visual: Side-by-side image of EAB beetle and a golf fairway lined with dead/dying ash trees
+## 0:00-0:05 — Title Card
+- Screen: Title slide "The Ash Borer Effect"
+- Brief pause, then advance
 
-## 0:15-0:45 — The Setup
-- Voiceover: "The emerald ash borer has killed hundreds of millions of ash trees across 37 states since 2002, spreading county by county from Detroit. Ash trees line fairways on courses across the Midwest. Fewer trees means wider fairways — and maybe fewer penalty shots."
-- Visual: Show the published app — use the year slider to animate the spread map from 2002 to 2022, showing EAB detections (orange) overtaking ash habitat (green)
+## 0:05-0:50 — Personal Intro (image progression)
+- Voiceover: "I'm a golfer, and about ten years ago I started noticing ash trees on my courses marked with a white X."
+- Visual: Slide 2 — photo of ash tree with white X spray-painted on it
+- Voiceover: "That's because of this — the Emerald Ash Borer, an invasive beetle that arrived in Detroit in 2002."
+- Visual: Slide 3 — close-up photo of EAB beetle
+- Voiceover: "It burrows under the bark, leaving these S-shaped trails, and has wiped out hundreds of millions of ash trees."
+- Visual: Slide 4 — photo of EAB larval galleries / trails in wood
+- Voiceover: "Entire forests have been devastated."
+- Visual: Slide 5 — photo of dead ash canopy / forest with standing dead trees
+- Voiceover: "But I noticed something — as these trees were removed from my golf courses, I started scoring better. Fewer trees in the fairway means fewer penalty shots."
+- Visual: Slide 6 — photo of tree-lined golf fairway
 
-## 0:45-1:15 — The Zerve Pipeline
-- Voiceover: "We built a multi-language pipeline in Zerve: Python for data ingestion and spatial modeling, R for causal inference — running side by side on the same canvas."
-- Visual: Show the Zerve DAG — zoom out to show the full pipeline
-- Call out: Three data sources flowing in (EAB detections, PGA scores, FIA tree surveys)
-- Call out: Track A (R) and Track B (Python) branching from the same ingestion block
+## 0:50-1:00 — The Question
+- Voiceover: "For this hackathon, I wanted to answer the question: does an ecological disaster actually make golfers better?"
+- Visual: Slide 7 — "Fewer trees mean wider fairways. Does an ecological disaster actually make golfers better?"
 
-## 1:15-1:55 — Track A: The Beetle Helps Your Game
-- Voiceover: "Track A: A difference-in-differences analysis on 23,000 PGA Tour scores across 84 courses, 2009 to 2022. Five courses fell in counties where EAB arrived during our study window."
-- Visual: Show the parallel trends plot in the canvas — EAB vs non-EAB courses tracking together pre-treatment
-- Voiceover: "The result? A statistically significant improvement of 0.76 strokes per tournament. P-value: 0.002. The beetle helps your game."
-- Visual: Show the coefficient plot — point estimate with 95% CI entirely below zero
-- Note: Mention the Frisch-Waugh-Lovell demeaning approach — pure base R, no fixest needed
+## 1:00-1:20 — The Zerve Pipeline
+- Voiceover: "I built a multi-language pipeline in Zerve — Python for data ingestion and spatial modeling, R for causal inference — running side by side on the same canvas."
+- Visual: Slide 8 — Zerve canvas DAG screenshot
+- Call out: Three data sources, Track A (R) and Track B (Python) branching from the same ingestion block
 
-## 1:55-2:35 — Track B: Ash Extinction
-- Voiceover: "Track B: We trained a spatial spread model on 861 detected counties to predict EAB's expansion, then pulled 41,000 multi-year forest inventory records to calibrate actual ash mortality."
-- Visual: Show the spread map block output in the canvas — ash density with EAB overlay
+## 1:20-1:50 — Track A: The Beetle Helps Your Game
+- Voiceover: "Track A uses difference-in-differences — a causal inference method — on 23,000 PGA Tour scores across 84 courses, 2009 to 2022. Five courses fell in counties where EAB arrived during the study window."
+- Visual: Slide 9 — big "-0.76 strokes" stat
+- Voiceover: "The result: a statistically significant improvement of 0.76 strokes per tournament. The beetle helps your game."
+- Note: Can show parallel trends and coefficient plots from Zerve canvas during narration if time allows
+
+## 1:50-2:20 — Track B: Ash Extinction
+- Voiceover: "Track B models the ecological side. I trained a spatial spread model on 861 detected counties, then calibrated ash mortality using 41,000 multi-year USDA forest inventory records."
+- Visual: Slide 10 — extinction timeline with "2035" stat
 - Voiceover: "At current observed rates, half of America's 8 billion ash trees will be gone by 2035."
-- Visual: Show the extinction timeline in the canvas — dual curves (literature vs. FIA-calibrated), with the 50% crossing points annotated
 
-## 2:35-2:50 — The App
-- Voiceover: "We deployed an interactive explorer via Zerve App Builder. Pick a year and watch the beetle march across the country."
-- Visual: Quick demo of the published app — slide through a few years, show the map updating
+## 2:20-2:45 — The App (animated spread map)
+- Voiceover: "I deployed an interactive explorer via Zerve App Builder. Pick a year and watch the beetle march across the country."
+- Visual: Slide 11 — live demo of the published app, sliding through years 2002 to 2022
+- Show the map updating with each year, green ash habitat overtaken by orange EAB detections
 
-## 2:50-3:00 — The Close
+## 2:45-3:00 — The Close
 - Voiceover: "An absurd question. A real answer. A real catastrophe. All built end-to-end in Zerve."
-- Visual: Title card with project link, team name, ZerveHack branding
+- Visual: Slide 12 — closing card with app link

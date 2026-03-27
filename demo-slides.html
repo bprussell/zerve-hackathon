@@ -450,7 +450,7 @@
         /* Big stat callout */
         .stat-row {
             display: flex;
-            align-items: baseline;
+            align-items: center;
             gap: clamp(0.5rem, 1.5vw, 1.5rem);
             justify-content: center;
             margin-top: clamp(0.75rem, 2vw, 1.5rem);
@@ -629,39 +629,55 @@
 
 
 <!-- ============================================
-     SLIDE 2: IMAGE — The Beetle
-     Replace placeholder with EAB close-up photo
+     SLIDE 2: IMAGE — Ash tree marked with X
      ============================================ -->
 <section class="slide image-slide">
     <span class="section-number">01</span>
     <div class="slide-content" style="align-items: center;">
         <div class="img-container reveal-scale">
-            <!-- Replace with: <img src="assets/eab-beetle.jpg" alt="Emerald ash borer beetle"> -->
-            <div class="img-placeholder">
-                <span class="icon">🪲</span>
-                Replace with EAB beetle close-up photo<br>
-                <small>Metallic green, 1/2 inch long, iridescent wings</small>
-            </div>
+            <img src="assets/ash-tree-x.png" alt="Ash tree marked with white X for removal">
         </div>
-        <p class="caption reveal">The <span>Emerald Ash Borer</span> — first detected in Detroit, 2002</p>
+        <p class="caption reveal">Ash trees marked for removal on <span>my local courses</span></p>
     </div>
 </section>
 
 
 <!-- ============================================
-     SLIDE 3: IMAGE — The Damage
-     Replace placeholder with dead/dying ash trees
+     SLIDE 3: IMAGE — The Beetle
      ============================================ -->
 <section class="slide image-slide">
     <span class="section-number">02</span>
     <div class="slide-content" style="align-items: center;">
         <div class="img-container reveal-scale">
-            <!-- Replace with: <img src="assets/ash-damage.jpg" alt="Ash trees killed by EAB"> -->
-            <div class="img-placeholder">
-                <span class="icon">🌳</span>
-                Replace with dead/dying ash tree photo<br>
-                <small>Canopy thinning, bark splitting, D-shaped exit holes</small>
-            </div>
+            <img src="assets/eab-beetle.png" alt="Emerald ash borer beetle">
+        </div>
+        <p class="caption reveal">The <span>Emerald Ash Borer</span> &mdash; arrived in Detroit, 2002</p>
+    </div>
+</section>
+
+
+<!-- ============================================
+     SLIDE 4: IMAGE — EAB trails in wood
+     ============================================ -->
+<section class="slide image-slide">
+    <span class="section-number">03</span>
+    <div class="slide-content" style="align-items: center;">
+        <div class="img-container reveal-scale">
+            <img src="assets/eab-trails.png" alt="EAB larval galleries under bark">
+        </div>
+        <p class="caption reveal">S-shaped larval galleries <span>cut off nutrient flow</span>, killing the tree</p>
+    </div>
+</section>
+
+
+<!-- ============================================
+     SLIDE 5: IMAGE — Dead ash forest
+     ============================================ -->
+<section class="slide image-slide">
+    <span class="section-number">04</span>
+    <div class="slide-content" style="align-items: center;">
+        <div class="img-container reveal-scale">
+            <img src="assets/dead-ash-forest.png" alt="Aerial view of forest with dead ash trees among green canopy">
         </div>
         <p class="caption reveal">Hundreds of millions of ash trees killed across <span>37 states</span></p>
     </div>
@@ -669,21 +685,15 @@
 
 
 <!-- ============================================
-     SLIDE 4: IMAGE — The Golf Course
-     Replace with tree-lined fairway or before/after
+     SLIDE 6: IMAGE — Golf course fairway
      ============================================ -->
 <section class="slide image-slide">
-    <span class="section-number">03</span>
+    <span class="section-number">05</span>
     <div class="slide-content" style="align-items: center;">
         <div class="img-container reveal-scale">
-            <!-- Replace with: <img src="assets/golf-fairway.jpg" alt="Tree-lined golf fairway"> -->
-            <div class="img-placeholder">
-                <span class="icon">⛳</span>
-                Replace with golf course / fairway photo<br>
-                <small>Ash trees lining the fairway — fewer trees = wider fairway</small>
-            </div>
+            <img src="assets/golf-fairway.png" alt="Golf course with ash trees removed — stumps visible along fairway">
         </div>
-        <p class="caption reveal">Ash trees line fairways across the <span>Midwest and East Coast</span></p>
+        <p class="caption reveal">As trees were removed, <span>I started scoring better</span></p>
     </div>
 </section>
 
@@ -703,56 +713,32 @@
 
 
 <!-- ============================================
-     SLIDE 6: THE PIPELINE
+     SLIDE 8: THE PIPELINE
+     Replace placeholder with Zerve canvas DAG screenshot
      ============================================ -->
-<section class="slide">
-    <span class="section-number">04</span>
+<section class="slide viz-slide">
+    <span class="section-number">06</span>
     <div class="slide-content" style="align-items: center;">
         <h2 class="slide-heading reveal">Built End-to-End in <span class="accent">Zerve</span></h2>
         <p class="slide-subheading reveal">Python + R running side by side on a single canvas</p>
-        <div class="pipeline-grid" style="margin-top: clamp(1rem, 3vw, 2.5rem);">
-            <div class="pipeline-card track-a reveal">
-                <span class="lang-tag">R</span>
-                <h3>Track A: Golf</h3>
-                <p>Difference-in-differences causal inference on 23,444 PGA Tour scores across 84 courses</p>
-            </div>
-            <div class="pipeline-card track-b reveal">
-                <span class="lang-tag">Python</span>
-                <h3>Track B: Ecology</h3>
-                <p>Spatial spread model + calibrated extinction timeline using USDA Forest Inventory data</p>
-            </div>
-        </div>
-        <p class="stat-detail reveal" style="margin-top: clamp(0.75rem, 2vw, 1.5rem);">3 data sources: USDA APHIS detections &bull; PGA Tour scores &bull; USDA Forest Service FIA</p>
-    </div>
-</section>
-
-
-<!-- ============================================
-     SLIDE 7: TRACK A — Parallel Trends
-     Replace placeholder with track_a_trend.png screenshot
-     ============================================ -->
-<section class="slide viz-slide">
-    <span class="section-number">05</span>
-    <div class="slide-content" style="align-items: center;">
-        <h2 class="slide-heading reveal">Parallel Trends</h2>
-        <p class="slide-subheading reveal">EAB vs non-EAB courses track together before treatment</p>
-        <div class="img-container reveal-scale">
-            <!-- Replace with: <img src="assets/track_a_trend.png" alt="Parallel trends chart"> -->
+        <div class="img-container reveal-scale" style="margin-top: clamp(0.5rem, 1.5vw, 1.5rem);">
+            <!-- Replace with: <img src="assets/zerve-canvas.png" alt="Zerve canvas DAG"> -->
             <div class="img-placeholder">
-                <span class="icon">📈</span>
-                Replace with track_a_trend.png<br>
-                <small>Orange = EAB courses, Blue = Non-EAB courses</small>
+                <span class="icon">🔀</span>
+                Replace with Zerve canvas screenshot<br>
+                <small>Full DAG: ingest → Track A (R) + Track B (Python) → viz blocks</small>
             </div>
         </div>
+        <p class="stat-detail reveal" style="margin-top: clamp(0.5rem, 1vw, 1rem);">3 data sources &bull; R for causal inference &bull; Python for spatial modeling</p>
     </div>
 </section>
 
 
 <!-- ============================================
-     SLIDE 8: TRACK A — The Result
+     SLIDE 9: TRACK A — The Result
      ============================================ -->
 <section class="slide">
-    <span class="section-number">06</span>
+    <span class="section-number">07</span>
     <div class="slide-content" style="align-items: center; justify-content: center; text-align: center;">
         <h2 class="slide-heading reveal">The Beetle <span class="accent">Helps</span> Your Game</h2>
         <div class="stat-row reveal">
@@ -761,27 +747,6 @@
         </div>
         <p class="stat-detail reveal" style="margin-top: clamp(0.5rem, 1vw, 1rem);">p = 0.002 &bull; 95% CI [&minus;1.24, &minus;0.28] &bull; Player, course, and year fixed effects &bull; Clustered SEs</p>
         <p class="stat-detail reveal">Tournaments are often decided by a single stroke.</p>
-    </div>
-</section>
-
-
-<!-- ============================================
-     SLIDE 9: TRACK B — Spread Map
-     Replace placeholder with spread_map.png or app screenshot
-     ============================================ -->
-<section class="slide viz-slide">
-    <span class="section-number">07</span>
-    <div class="slide-content" style="align-items: center;">
-        <h2 class="slide-heading reveal">EAB Spread: <span class="accent">2002&ndash;2022</span></h2>
-        <p class="slide-subheading reveal">861 confirmed counties &bull; ~53 km/year from Detroit</p>
-        <div class="img-container reveal-scale">
-            <!-- Replace with: <img src="assets/spread_map.png" alt="EAB spread map"> -->
-            <div class="img-placeholder">
-                <span class="icon">🗺️</span>
-                Replace with spread map screenshot<br>
-                <small>Green = ash habitat, Orange = EAB detections</small>
-            </div>
-        </div>
     </div>
 </section>
 
