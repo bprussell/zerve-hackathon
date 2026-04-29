@@ -1,22 +1,16 @@
-# Social Media Post Draft (LinkedIn)
+# Social Media Post (LinkedIn)
 
----
+About ten years ago I started noticing ash trees on my golf courses marked with a white X.
 
-**Does an invasive beetle improve your golf game?**
+Turns out that's the emerald ash borer — an invasive beetle that's killed hundreds of millions of ash trees since 2002. And as those trees came down on my courses, my scores got better. Coincidence?
 
-I used PGA Tour data and USDA forest surveys to find out — and the answer is yes (p=0.005).
+Probably not, as it turns out. I ran the numbers on 23,000+ PGA Tour scores: courses see roughly -0.76 strokes per tournament after the beetle shows up (p=0.002). The bug is making golfers better.
 
-The emerald ash borer has killed hundreds of millions of ash trees since 2002. Ash trees line fairways on courses across the Midwest, so I tested whether their removal actually helps golfers. A difference-in-differences analysis on 23,000+ tournament scores shows a statistically significant improvement of 0.76 strokes after EAB arrives in a county.
+The not-funny part: at the rate ash trees are dying, half of North America's 8 billion of them will be gone by 2035.
 
-Then I flipped to the serious side: a spatial spread model predicts EAB reaching all of the contiguous US by ~2037. Multi-year Forest Inventory data shows half of North America's 8 billion ash trees could be gone by 2035.
+Built this for a hackathon hosted by Zerve, a platform for building data science pipelines. The whole thing runs Python and R side by side on the same canvas — really fun to work with.
 
-An absurd question. A real catastrophe. Built end-to-end in @ZerveAI for the #ZerveHack hackathon.
+🎥 https://youtu.be/eYbqwebCRMU
+🗺  https://app.zerve.ai/apps/34de12c2-d440-4c68-9cd1-062557b4ee54/the-ash-borer-effect
 
-[Project link]
-[Demo video link]
-
-#DataScience #CausalInference #Ecology #ZerveHack #Hackathon
-
----
-
-*Note: Insert project URL and video link after deployment (Issues #11, #13).*
+#DataScience #ZerveHack
